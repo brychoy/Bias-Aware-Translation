@@ -98,5 +98,9 @@ python src/main.py --mode experiment --input_file data/eval_inputs.txt
 ```
 
 ## DEMO Example
-![Demo Output](figures/demo_output.png)
+<p align="center">
+  <img src="figures/demo_output.png" width="600"/>
+</p>
+
+**Figure 1.** Example output from bias-aware translation system.
 
