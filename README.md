@@ -40,6 +40,40 @@ Phase 3: Evaluation + Logging
 ---
 
 ## Project Structure
+```
+bias-aware-translation/
+│
+├── src/                        # Core pipeline code
+│   ├── main.py                 # Entry point (demo + experiment runner)
+│   │
+│   ├── phase1/                 # Ambiguity detection + gender injection (PLACEHOLDER)
+│   │   ├── resolver.py
+│   │   ├── classifier.py       # (ML model 1 placeholder)
+│   │   ├── localizer.py        # (ML model 2 placeholder)
+│   │
+│   ├── phase2/                 # Translation module
+│   │   ├── translator.py       # Google Translate wrapper
+│   │
+│   ├── phase3/                 # Evaluation module (PLACEHOLDER)
+│   │   ├── evaluator.py
+│   │
+│   ├── pipeline/               # Orchestration layer
+│   │   ├── pipeline.py
+│
+├── data/                       # Input datasets for evaluation
+│   ├── eval_inputs.txt
+│
+├── outputs/                    # Experiment outputs & logs
+│   ├── results.json
+│
+├── figures/
+│   ├── demo_output.png
+│
+├── venv_nlp/    
+├── requirements.txt
+├── README.md
+└── .gitignore
+```
 
 ---
 
@@ -64,5 +98,5 @@ python src/main.py --mode experiment --input_file data/eval_inputs.txt
 ```
 
 ## DEMO Example
-
+![Demo Output](figures/demo_output.png)
 
