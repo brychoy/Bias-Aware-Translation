@@ -1,23 +1,22 @@
-import json
-
-
 class Evaluator:
+    """
+    Placeholder evaluator module.
+
+    This module is intentionally left minimal.
+    Future work will define:
+    - bias metrics
+    - workflow success rate
+    - baseline comparisons
+    """
+
     def __init__(self):
-        self.results = []
+        pass
 
     def log(self, result: dict):
-        self.results.append(result)
+        pass
 
     def compute_summary(self):
-        total = len(self.results)
-        ambiguous = sum(1 for r in self.results if len(r["resolved"]) == 2)
-
-        return {
-            "total_inputs": total,
-            "ambiguous_cases_detected": ambiguous,
-            "ambiguity_rate": ambiguous / total if total else 0,
-        }
+        pass
 
     def save(self, path="outputs/results.json"):
-        with open(path, "w") as f:
-            json.dump(self.results, f, indent=2)
+        pass
