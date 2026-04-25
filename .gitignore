@@ -1,0 +1,5 @@
+venv_nlp/
+__pycache__/
+*.pyc
+.env
+outputs/
