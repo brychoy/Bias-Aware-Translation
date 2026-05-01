@@ -1,0 +1,2001 @@
+id,sentence,ambiguity_label,actor_text,actor_start,actor_end
+1,The veterinarian said she will call later.,unambiguous,veterinarian,4,16
+2,"The consultant, who said she was calm, started the meeting.",unambiguous,consultant,4,14
+3,The stewardess opened the door.,unambiguous,stewardess,4,14
+4,The analyst said he will arrive soon.,unambiguous,analyst,4,11
+5,"After reading the email, the director said she was available.",unambiguous,director,29,37
+6,"After finishing work, the waiter sent an email.",unambiguous,waiter,26,32
+7,"The empress, who was available, entered the room.",unambiguous,empress,4,11
+8,Your pilot returned later.,ambiguous,pilot,5,10
+9,The chef sat down at noon.,ambiguous,chef,4,8
+10,The engineer said she will speak tomorrow.,unambiguous,engineer,4,12
+11,The lawyer introduced herself politely.,unambiguous,lawyer,4,10
+12,"Before the meeting, the nurse checked her bag.",unambiguous,nurse,24,29
+13,"Because the principal was prepared, the principal called yesterday.",ambiguous,principal,12,21
+14,The pharmacist called yesterday.,ambiguous,pharmacist,4,14
+15,The librarian said he was available.,unambiguous,librarian,4,13
+16,The busy pharmacist started the meeting.,ambiguous,pharmacist,9,19
+17,"During the event, the hero sat down.",unambiguous,hero,22,26
+18,The journalist said she will join the meeting.,unambiguous,journalist,4,14
+19,"After closing the office, the director checked the schedule.",ambiguous,director,30,38
+20,"Before the meeting, the artist checked her schedule.",unambiguous,artist,24,30
+21,The experienced hostess returned later.,unambiguous,hostess,16,23
+22,My principal said he was late.,unambiguous,principal,3,12
+23,"Because the writer was confident, the writer arrived.",ambiguous,writer,12,18
+24,The researcher introduced himself politely.,unambiguous,researcher,4,14
+25,"The architect, who said he was calm, finished the report.",unambiguous,architect,4,13
+26,The nurse introduced himself politely.,unambiguous,nurse,4,9
+27,Your musician answered quickly.,ambiguous,musician,5,13
+28,The pilot returned later.,ambiguous,pilot,4,9
+29,"Before the meeting, the mechanic checked her notebook.",unambiguous,mechanic,24,32
+30,The analyst will finish the report.,ambiguous,analyst,4,11
+31,"The instructor, who said she was late, prepared carefully.",unambiguous,instructor,4,14
+32,The translator introduced himself politely.,unambiguous,translator,4,14
+33,"On Monday, the pilot sent an email.",ambiguous,pilot,15,20
+34,"Because the analyst was tired, the analyst smiled politely.",ambiguous,analyst,12,19
+35,The careful dentist said she would return later.,unambiguous,dentist,12,19
+36,"On Monday, the principal called yesterday.",ambiguous,principal,15,24
+37,The chairman spoke clearly.,unambiguous,chairman,4,12
+38,"The professor, who said he was ready, joined the call.",unambiguous,professor,4,13
+39,"The accountant, who was available, spoke clearly.",ambiguous,accountant,4,14
+40,A surgeon left early.,ambiguous,surgeon,2,9
+41,"After closing the office, the dentist said he was worried.",unambiguous,dentist,30,37
+42,The accountant explained the issue.,ambiguous,accountant,4,14
+43,"After reviewing the notes, the photographer opened the door.",ambiguous,photographer,31,43
+44,Your supervisor walked in quietly.,ambiguous,supervisor,5,15
+45,"After joining the call, the coach started the meeting.",ambiguous,coach,28,33
+46,My journalist said she was confident.,unambiguous,journalist,3,13
+47,"The empress, who was prepared, stood near the window.",unambiguous,empress,4,11
+48,The chef said she will finish the report.,unambiguous,chef,4,8
+49,"Before the meeting, the scientist checked his coat.",unambiguous,scientist,24,33
+50,Your translator said she was prepared.,unambiguous,translator,5,15
+51,"Last week, the assistant walked in quietly.",ambiguous,assistant,15,24
+52,The local king waited outside.,unambiguous,king,10,14
+53,"After reading the email, the designer smiled politely.",ambiguous,designer,29,37
+54,The manager introduced herself politely.,unambiguous,manager,4,11
+55,"The professor called yesterday, and he seemed focused.",unambiguous,professor,4,13
+56,"After finishing work, the scientist said she was available.",unambiguous,scientist,26,35
+57,The director will call later.,ambiguous,director,4,12
+58,The driver forgot her bag.,unambiguous,driver,4,10
+59,Their translator said she was late.,unambiguous,translator,6,16
+60,The surgeon called yesterday.,ambiguous,surgeon,4,11
+61,Their counselor said she was worried.,unambiguous,counselor,6,15
+62,"Before the meeting, the doctor asked a question.",ambiguous,doctor,24,30
+63,The teacher forgot his laptop.,unambiguous,teacher,4,11
+64,"The supervisor, who was focused, made a decision.",ambiguous,supervisor,4,14
+65,The musician said he will arrive soon.,unambiguous,musician,4,12
+66,"Yesterday, the therapist left early.",ambiguous,therapist,15,24
+67,The famous photographer waited outside.,ambiguous,photographer,11,23
+68,The private developer said she would return later.,unambiguous,developer,12,21
+69,"The designer waited outside, and she seemed focused.",unambiguous,designer,4,12
+70,"After closing the office, the duchess answered quickly.",unambiguous,duchess,30,37
+71,The musician said she was confident.,unambiguous,musician,4,12
+72,The photographer forgot his coat.,unambiguous,photographer,4,16
+73,"The coach, who was calm, arrived.",ambiguous,coach,4,9
+74,"The congresswoman, who was ready, started the meeting.",unambiguous,congresswoman,4,17
+75,"After preparing the report, the dentist answered quickly.",ambiguous,dentist,32,39
+76,"After finishing work, the receptionist said she was confident.",unambiguous,receptionist,26,38
+77,The local accountant worked late.,ambiguous,accountant,10,20
+78,The teacher forgot her wallet.,unambiguous,teacher,4,11
+79,The busy stewardess explained the issue.,unambiguous,stewardess,9,19
+80,The professor said he will arrive soon.,unambiguous,professor,4,13
+81,"In the afternoon, the saleswoman finished the report.",unambiguous,saleswoman,22,32
+82,"Last week, the heroine gave a lecture.",unambiguous,heroine,15,22
+83,"After reading the email, the receptionist said she was prepared.",unambiguous,receptionist,29,41
+84,The tired teacher joined the call.,ambiguous,teacher,10,17
+85,My librarian said he was prepared.,unambiguous,librarian,3,12
+86,My assistant said he was available.,unambiguous,assistant,3,12
+87,My nurse walked in quietly.,ambiguous,nurse,3,8
+88,"Last week, the counselor made a decision.",ambiguous,counselor,15,24
+89,"The receptionist arrived, and he seemed busy.",unambiguous,receptionist,4,16
+90,"After closing the office, the chairman asked a question.",unambiguous,chairman,30,38
+91,"After checking the schedule, the librarian said she was prepared.",unambiguous,librarian,33,42
+92,"After joining the call, the chairman entered the room.",unambiguous,chairman,28,36
+93,The translator forgot his wallet.,unambiguous,translator,4,14
+94,"Near the end of the day, the driver spoke clearly.",ambiguous,driver,29,35
+95,"The teacher, who was calm, called yesterday.",ambiguous,teacher,4,11
+96,"The journalist, who was confident, started the meeting.",ambiguous,journalist,4,14
+97,The writer answered quickly.,ambiguous,writer,4,10
+98,"After closing the office, the editor explained the issue.",ambiguous,editor,30,36
+99,A engineer worked late.,ambiguous,engineer,2,10
+100,"Because the consultant was tired, the consultant checked the schedule.",ambiguous,consultant,12,22
+101,"The musician, who said he was worried, spoke clearly.",unambiguous,musician,4,12
+102,"Before the meeting, the surgeon checked his notes.",unambiguous,surgeon,24,31
+103,"After reviewing the notes, the assistant said he was confident.",unambiguous,assistant,31,40
+104,"Before the meeting, the assistant checked her bag.",unambiguous,assistant,24,33
+105,"After answering questions, the architect said he was worried.",unambiguous,architect,31,40
+106,"After closing the office, the pilot gave a short update.",ambiguous,pilot,30,35
+107,"After reading the email, the director smiled politely.",ambiguous,director,29,37
+108,The designer gave a lecture.,ambiguous,designer,4,12
+109,The new counselor said he would return later.,unambiguous,counselor,8,17
+110,"On Monday, the emperor walked in quietly.",unambiguous,emperor,15,22
+111,"The photographer checked the schedule, and she seemed confident.",unambiguous,photographer,4,16
+112,"The instructor, who was prepared, gave a lecture.",ambiguous,instructor,4,14
+113,The receptionist sent an email during the event.,ambiguous,receptionist,4,16
+114,"Before the meeting, the analyst checked his notes.",unambiguous,analyst,24,31
+115,A coach stood near the window.,ambiguous,coach,2,7
+116,"After reviewing the notes, the translator opened the door.",ambiguous,translator,31,41
+117,Our doctor said he was confident.,unambiguous,doctor,4,10
+118,"The architect made a decision, and he seemed ready.",unambiguous,architect,4,13
+119,A counselor answered quickly.,ambiguous,counselor,2,11
+120,"The scientist, who was calm, started the meeting.",ambiguous,scientist,4,13
+121,The supervisor said she was available.,unambiguous,supervisor,4,14
+122,The prince worked late.,unambiguous,prince,4,10
+123,"The chairman, who was tired, paused for a moment.",unambiguous,chairman,4,12
+124,The chef returned later in the afternoon.,ambiguous,chef,4,8
+125,"After reviewing the notes, the mechanic smiled politely.",ambiguous,mechanic,31,39
+126,"After checking the schedule, the chef gave a short update.",ambiguous,chef,33,37
+127,The translator will speak tomorrow.,ambiguous,translator,4,14
+128,The architect said he was focused.,unambiguous,architect,4,13
+129,The dentist will call later.,ambiguous,dentist,4,11
+130,The tired policeman returned later.,unambiguous,policeman,10,19
+131,"Yesterday, the teacher answered quickly.",ambiguous,teacher,15,22
+132,"The receptionist, who said she was ready, returned later.",unambiguous,receptionist,4,16
+133,The doctor answered quickly yesterday.,ambiguous,doctor,4,10
+134,The assistant said he was calm.,unambiguous,assistant,4,13
+135,"After joining the call, the pilot said she was prepared.",unambiguous,pilot,28,33
+136,The famous surgeon gave a lecture.,ambiguous,surgeon,11,18
+137,"Near the end of the day, the artist left early.",ambiguous,artist,29,35
+138,"At noon, the teacher explained the issue.",ambiguous,teacher,13,20
+139,"After answering questions, the veterinarian left early.",ambiguous,veterinarian,31,43
+140,The careful firewoman called yesterday.,unambiguous,firewoman,12,21
+141,The artist said he was calm.,unambiguous,artist,4,10
+142,The teacher asked a question on Monday.,ambiguous,teacher,4,11
+143,The careful musician smiled politely.,ambiguous,musician,12,20
+144,The quiet director asked a question.,ambiguous,director,10,18
+145,"After lunch, the duchess waited outside.",unambiguous,duchess,17,24
+146,"The accountant, who said he was prepared, worked late.",unambiguous,accountant,4,14
+147,The teacher said she will arrive soon.,unambiguous,teacher,4,11
+148,"Yesterday, the journalist walked in quietly.",ambiguous,journalist,15,25
+149,The busy counselor gave a short update.,ambiguous,counselor,9,18
+150,The nurse said she was tired.,unambiguous,nurse,4,9
+151,"Because the writer was prepared, the writer answered quickly.",ambiguous,writer,12,18
+152,"The doctor paused for a moment, and he seemed available.",unambiguous,doctor,4,10
+153,The receptionist said he was busy.,unambiguous,receptionist,4,16
+154,"After joining the call, the empress spoke clearly.",unambiguous,empress,28,35
+155,"This morning, the heroine left early.",unambiguous,heroine,18,25
+156,"The surgeon, who was late, smiled politely.",ambiguous,surgeon,4,11
+157,The journalist forgot her coat.,unambiguous,journalist,4,14
+158,The developer gave a lecture.,ambiguous,developer,4,13
+159,The visiting manager left early.,ambiguous,manager,13,20
+160,The musician said she was busy.,unambiguous,musician,4,12
+161,"Because the engineer was prepared, the engineer gave a short update.",ambiguous,engineer,12,20
+162,"The emperor, who was available, stood near the window.",unambiguous,emperor,4,11
+163,The friendly scientist said she would return later.,unambiguous,scientist,13,22
+164,"After reading the email, the architect arrived.",ambiguous,architect,29,38
+165,"The architect, who said he was busy, arrived.",unambiguous,architect,4,13
+166,"The manager, who was prepared, walked in quietly.",ambiguous,manager,4,11
+167,The director said he will finish the report.,unambiguous,director,4,12
+168,The salesman paused for a moment.,unambiguous,salesman,4,12
+169,Our doctor said she was busy.,unambiguous,doctor,4,10
+170,Their nurse explained the issue.,ambiguous,nurse,6,11
+171,The analyst said he was busy.,unambiguous,analyst,4,11
+172,"After closing the office, the developer returned later.",ambiguous,developer,30,39
+173,"The photographer arrived, and she seemed ready.",unambiguous,photographer,4,16
+174,"The musician, who was worried, smiled politely.",ambiguous,musician,4,12
+175,The designer said she will arrive soon.,unambiguous,designer,4,12
+176,The writer will speak tomorrow.,ambiguous,writer,4,10
+177,"The empress, who was ready, opened the door.",unambiguous,empress,4,11
+178,The photographer said she will arrive soon.,unambiguous,photographer,4,16
+179,The nurse will call later.,ambiguous,nurse,4,9
+180,The driver will join the meeting.,ambiguous,driver,4,10
+181,"Because the researcher was busy, the researcher worked late.",ambiguous,researcher,12,22
+182,Your receptionist said he was calm.,unambiguous,receptionist,5,17
+183,The scientist asked a question.,ambiguous,scientist,4,13
+184,The friendly coach said she would return later.,unambiguous,coach,13,18
+185,The friendly landlady prepared carefully.,unambiguous,landlady,13,21
+186,The salesman called yesterday.,unambiguous,salesman,4,12
+187,The experienced musician started the meeting.,ambiguous,musician,16,24
+188,"Before the meeting, the manager gave a lecture.",ambiguous,manager,24,31
+189,"After answering questions, the architect made a decision.",ambiguous,architect,31,40
+190,The assistant will arrive soon.,ambiguous,assistant,4,13
+191,Their principal said he was confident.,unambiguous,principal,6,15
+192,The pharmacist said she will arrive soon.,unambiguous,pharmacist,4,14
+193,The landlord spoke clearly.,unambiguous,landlord,4,12
+194,"The coach called yesterday, and he seemed calm.",unambiguous,coach,4,9
+195,"The scientist, who was calm, smiled politely.",ambiguous,scientist,4,13
+196,The famous musician checked the schedule.,ambiguous,musician,11,19
+197,Our veterinarian opened the door.,ambiguous,veterinarian,4,16
+198,The teacher finished the report.,ambiguous,teacher,4,11
+199,The manager said he will finish the report.,unambiguous,manager,4,11
+200,The teacher introduced herself politely.,unambiguous,teacher,4,11
+201,"After answering questions, the saleswoman checked the schedule.",unambiguous,saleswoman,31,41
+202,"The accountant stood near the window, and he seemed prepared.",unambiguous,accountant,4,14
+203,The young accountant called yesterday.,ambiguous,accountant,10,20
+204,Your director said he was confident.,unambiguous,director,5,13
+205,The musician said she will finish the report.,unambiguous,musician,4,12
+206,The consultant said he will arrive soon.,unambiguous,consultant,4,14
+207,The local prince answered quickly.,unambiguous,prince,10,16
+208,"After reading the email, the professor called yesterday.",ambiguous,professor,29,38
+209,Your journalist returned later.,ambiguous,journalist,5,15
+210,The visiting spokesman prepared carefully.,unambiguous,spokesman,13,22
+211,"The manager, who was worried, made a decision.",ambiguous,manager,4,11
+212,The steward waited outside.,unambiguous,steward,4,11
+213,Your assistant finished the report.,ambiguous,assistant,5,14
+214,The duchess opened the door.,unambiguous,duchess,4,11
+215,"After preparing the report, the salesman gave a lecture.",unambiguous,salesman,32,40
+216,Our professor said she was prepared.,unambiguous,professor,4,13
+217,The consultant said she will join the meeting.,unambiguous,consultant,4,14
+218,"After finishing work, the surgeon said she was focused.",unambiguous,surgeon,26,33
+219,The lawyer will speak tomorrow.,ambiguous,lawyer,4,10
+220,"The scientist, who said she was prepared, opened the door.",unambiguous,scientist,4,13
+221,The surgeon said he will finish the report.,unambiguous,surgeon,4,11
+222,The landlady smiled politely.,unambiguous,landlady,4,12
+223,The designer spoke clearly.,ambiguous,designer,4,12
+224,"The journalist, who said she was focused, asked a question.",unambiguous,journalist,4,14
+225,"During the event, the pharmacist paused for a moment.",ambiguous,pharmacist,22,32
+226,"In the afternoon, the artist explained the issue.",ambiguous,artist,22,28
+227,The photographer gave a short update.,ambiguous,photographer,4,16
+228,"Before the meeting, the accountant checked her coat.",unambiguous,accountant,24,34
+229,"The principal, who said she was worried, worked late.",unambiguous,principal,4,13
+230,The assistant prepared carefully.,ambiguous,assistant,4,13
+231,The journalist joined the call near the end of the day.,ambiguous,journalist,4,14
+232,A pharmacist gave a short update.,ambiguous,pharmacist,2,12
+233,The older artist said she would return later.,unambiguous,artist,10,16
+234,"The director, who was tired, started the meeting.",ambiguous,director,4,12
+235,"Because the manager was focused, the manager made a decision.",ambiguous,manager,12,19
+236,"The princess, who was confident, joined the call.",unambiguous,princess,4,12
+237,The private manager sat down.,ambiguous,manager,12,19
+238,"The scientist smiled politely, and he seemed prepared.",unambiguous,scientist,4,13
+239,"The translator, who was calm, sent an email.",ambiguous,translator,4,14
+240,"During the event, the veterinarian sat down.",ambiguous,veterinarian,22,34
+241,The photographer introduced herself politely.,unambiguous,photographer,4,16
+242,"On Monday, the hero entered the room.",unambiguous,hero,15,19
+243,Your professor said he was tired.,unambiguous,professor,5,14
+244,The friendly principal worked late.,ambiguous,principal,13,22
+245,"The journalist, who was ready, explained the issue.",ambiguous,journalist,4,14
+246,"After finishing work, the translator said he was available.",unambiguous,translator,26,36
+247,The engineer finished the report.,ambiguous,engineer,4,12
+248,"The researcher, who said she was worried, asked a question.",unambiguous,researcher,4,14
+249,The teacher called yesterday.,ambiguous,teacher,4,11
+250,The friendly instructor said he would return later.,unambiguous,instructor,13,23
+251,Our assistant said he was prepared.,unambiguous,assistant,4,13
+252,The hostess returned later.,unambiguous,hostess,4,11
+253,The junior policeman returned later.,unambiguous,policeman,11,20
+254,The driver said she will join the meeting.,unambiguous,driver,4,10
+255,The librarian introduced herself politely.,unambiguous,librarian,4,13
+256,The instructor will speak tomorrow.,ambiguous,instructor,4,14
+257,"After joining the call, the businesswoman worked late.",unambiguous,businesswoman,28,41
+258,Their engineer said he was confident.,unambiguous,engineer,6,14
+259,"This morning, the policeman answered quickly.",unambiguous,policeman,18,27
+260,"The mechanic joined the call, and he seemed ready.",unambiguous,mechanic,4,12
+261,The private director said she would return later.,unambiguous,director,12,20
+262,The doctor will join the meeting.,ambiguous,doctor,4,10
+263,"After reading the email, the counselor worked late.",ambiguous,counselor,29,38
+264,"After closing the office, the waitress checked the schedule.",unambiguous,waitress,30,38
+265,The principal said he was focused.,unambiguous,principal,4,13
+266,The new instructor finished the report.,ambiguous,instructor,8,18
+267,"At noon, the landlady called yesterday.",unambiguous,landlady,13,21
+268,The artist said she will arrive soon.,unambiguous,artist,4,10
+269,"Before the meeting, the scientist checked her schedule.",unambiguous,scientist,24,33
+270,"After reviewing the notes, the princess opened the door.",unambiguous,princess,31,39
+271,The junior professor gave a short update.,ambiguous,professor,11,20
+272,The heroine sat down.,unambiguous,heroine,4,11
+273,The accountant forgot her laptop.,unambiguous,accountant,4,14
+274,"After lunch, the architect arrived.",ambiguous,architect,17,26
+275,"On Monday, the duchess sent an email.",unambiguous,duchess,15,22
+276,My assistant said she was prepared.,unambiguous,assistant,3,12
+277,The policewoman smiled politely.,unambiguous,policewoman,4,15
+278,The older nurse sat down.,ambiguous,nurse,10,15
+279,The lawyer will arrive soon.,ambiguous,lawyer,4,10
+280,"After closing the office, the artist prepared carefully.",ambiguous,artist,30,36
+281,The teacher forgot her notebook.,unambiguous,teacher,4,11
+282,"Before the meeting, the teacher checked her notes.",unambiguous,teacher,24,31
+283,The scientist forgot his bag.,unambiguous,scientist,4,13
+284,The experienced surgeon spoke clearly.,ambiguous,surgeon,16,23
+285,"Before the meeting, the therapist checked her notes.",unambiguous,therapist,24,33
+286,"The consultant, who said he was tired, started the meeting.",unambiguous,consultant,4,14
+287,Their artist made a decision.,ambiguous,artist,6,12
+288,"On Monday, the engineer asked a question.",ambiguous,engineer,15,23
+289,The busy photographer asked a question.,ambiguous,photographer,9,21
+290,"After finishing work, the engineer stood near the window.",ambiguous,engineer,26,34
+291,"After lunch, the journalist finished the report.",ambiguous,journalist,17,27
+292,"After reviewing the notes, the journalist made a decision.",ambiguous,journalist,31,41
+293,Their pilot answered quickly.,ambiguous,pilot,6,11
+294,A driver arrived.,ambiguous,driver,2,8
+295,"The spokeswoman, who was late, spoke clearly.",unambiguous,spokeswoman,4,15
+296,"After finishing work, the writer sent an email.",ambiguous,writer,26,32
+297,"The translator entered the room, and he seemed calm.",unambiguous,translator,4,14
+298,A scientist spoke clearly.,ambiguous,scientist,2,11
+299,Our manager joined the call.,ambiguous,manager,4,11
+300,The journalist checked the schedule.,ambiguous,journalist,4,14
+301,Your editor arrived.,ambiguous,editor,5,11
+302,The busy mechanic said she would return later.,unambiguous,mechanic,9,17
+303,"After finishing work, the teacher checked the schedule.",ambiguous,teacher,26,33
+304,Our musician gave a short update.,ambiguous,musician,4,12
+305,"After closing the office, the counselor said she was worried.",unambiguous,counselor,30,39
+306,The tired artist returned later.,ambiguous,artist,10,16
+307,"Because the musician was late, the musician left early.",ambiguous,musician,12,20
+308,"Before the meeting, the musician checked his bag.",unambiguous,musician,24,32
+309,My therapist asked a question.,ambiguous,therapist,3,12
+310,The counselor forgot his coat.,unambiguous,counselor,4,13
+311,"The analyst entered the room, and she seemed prepared.",unambiguous,analyst,4,11
+312,The friendly businesswoman joined the call.,unambiguous,businesswoman,13,26
+313,The director said he will speak tomorrow.,unambiguous,director,4,12
+314,The artist waited outside before the meeting.,ambiguous,artist,4,10
+315,"After joining the call, the therapist said she was worried.",unambiguous,therapist,28,37
+316,Your journalist said she was busy.,unambiguous,journalist,5,15
+317,"After lunch, the photographer paused for a moment.",ambiguous,photographer,17,29
+318,"Near the end of the day, the librarian made a decision.",ambiguous,librarian,29,38
+319,A dentist smiled politely.,ambiguous,dentist,2,9
+320,"After checking the schedule, the stewardess finished the report.",unambiguous,stewardess,33,43
+321,A pilot paused for a moment.,ambiguous,pilot,2,7
+322,My pharmacist smiled politely.,ambiguous,pharmacist,3,13
+323,"Yesterday, the manager gave a short update.",ambiguous,manager,15,22
+324,The doctor sat down.,ambiguous,doctor,4,10
+325,"After finishing work, the principal said he was prepared.",unambiguous,principal,26,35
+326,"Yesterday, the musician called yesterday.",ambiguous,musician,15,23
+327,"The manager, who said she was busy, gave a short update.",unambiguous,manager,4,11
+328,"Before the meeting, the engineer checked her keys.",unambiguous,engineer,24,32
+329,The librarian waited outside at noon.,ambiguous,librarian,4,13
+330,"After answering questions, the principal said she was late.",unambiguous,principal,31,40
+331,The artist said she will finish the report.,unambiguous,artist,4,10
+332,The confident driver explained the issue.,ambiguous,driver,14,20
+333,The lawyer waited outside.,ambiguous,lawyer,4,10
+334,The visiting driver said she would return later.,unambiguous,driver,13,19
+335,The analyst left early.,ambiguous,analyst,4,11
+336,The friendly architect answered quickly.,ambiguous,architect,13,22
+337,The veterinarian stood near the window.,ambiguous,veterinarian,4,16
+338,The senior landlady smiled politely.,unambiguous,landlady,11,19
+339,"The nurse arrived, and he seemed calm.",unambiguous,nurse,4,9
+340,The friendly congressman sent an email.,unambiguous,congressman,13,24
+341,The businesswoman finished the report.,unambiguous,businesswoman,4,17
+342,The chef introduced himself politely.,unambiguous,chef,4,8
+343,The driver introduced himself politely.,unambiguous,driver,4,10
+344,"The developer returned later, and she seemed late.",unambiguous,developer,4,13
+345,The researcher said he was calm.,unambiguous,researcher,4,14
+346,"After closing the office, the scientist said he was focused.",unambiguous,scientist,30,39
+347,The therapist opened the door at noon.,ambiguous,therapist,4,13
+348,The assistant started the meeting.,ambiguous,assistant,4,13
+349,"The instructor gave a lecture, and she seemed ready.",unambiguous,instructor,4,14
+350,The engineer will join the meeting.,ambiguous,engineer,4,12
+351,The writer checked the schedule.,ambiguous,writer,4,10
+352,The consultant waited outside.,ambiguous,consultant,4,14
+353,The consultant forgot her laptop.,unambiguous,consultant,4,14
+354,"After lunch, the consultant paused for a moment.",ambiguous,consultant,17,27
+355,The translator paused for a moment last week.,ambiguous,translator,4,14
+356,"After finishing work, the librarian worked late.",ambiguous,librarian,26,35
+357,The junior analyst said she would return later.,unambiguous,analyst,11,18
+358,"After reading the email, the writer called yesterday.",ambiguous,writer,29,35
+359,The scientist started the meeting on Monday.,ambiguous,scientist,4,13
+360,The photographer will speak tomorrow.,ambiguous,photographer,4,16
+361,"The nurse walked in quietly, and he seemed focused.",unambiguous,nurse,4,9
+362,"The veterinarian, who was ready, walked in quietly.",ambiguous,veterinarian,4,16
+363,The careful doctor sent an email.,ambiguous,doctor,12,18
+364,"The hostess, who was worried, sat down.",unambiguous,hostess,4,11
+365,The director spoke clearly on Monday.,ambiguous,director,4,12
+366,"The translator, who was focused, left early.",ambiguous,translator,4,14
+367,My professor said he was late.,unambiguous,professor,3,12
+368,"This morning, the developer opened the door.",ambiguous,developer,18,27
+369,"Because the instructor was worried, the instructor gave a lecture.",ambiguous,instructor,12,22
+370,The accountant forgot his wallet.,unambiguous,accountant,4,14
+371,"After reviewing the notes, the principal said she was tired.",unambiguous,principal,31,40
+372,"The mechanic, who was worried, worked late.",ambiguous,mechanic,4,12
+373,"On Monday, the therapist spoke clearly.",ambiguous,therapist,15,24
+374,"Before the meeting, the spokeswoman sent an email.",unambiguous,spokeswoman,24,35
+375,"Because the scientist was focused, the scientist asked a question.",ambiguous,scientist,12,21
+376,"The researcher, who said he was ready, sat down.",unambiguous,researcher,4,14
+377,"Last week, the editor gave a short update.",ambiguous,editor,15,21
+378,"Yesterday, the therapist asked a question.",ambiguous,therapist,15,24
+379,The professor forgot his phone.,unambiguous,professor,4,13
+380,"After preparing the report, the chef said he was prepared.",unambiguous,chef,32,36
+381,"The writer made a decision, and he seemed prepared.",unambiguous,writer,4,10
+382,The experienced fireman stood near the window.,unambiguous,fireman,16,23
+383,The careful princess paused for a moment.,unambiguous,princess,12,20
+384,My artist waited outside.,ambiguous,artist,3,9
+385,A surgeon arrived.,ambiguous,surgeon,2,9
+386,The journalist asked a question before the meeting.,ambiguous,journalist,4,14
+387,"After joining the call, the translator said he was worried.",unambiguous,translator,28,38
+388,The older nurse paused for a moment.,ambiguous,nurse,10,15
+389,"After answering questions, the waiter waited outside.",unambiguous,waiter,31,37
+390,The artist will speak tomorrow.,ambiguous,artist,4,10
+391,The assistant forgot her badge.,unambiguous,assistant,4,13
+392,Their instructor walked in quietly.,ambiguous,instructor,6,16
+393,"Yesterday, the lawyer left early.",ambiguous,lawyer,15,21
+394,The private director explained the issue.,ambiguous,director,12,20
+395,"Yesterday, the pharmacist gave a short update.",ambiguous,pharmacist,15,25
+396,Their director made a decision.,ambiguous,director,6,14
+397,"After lunch, the king waited outside.",unambiguous,king,17,21
+398,My mechanic said she was busy.,unambiguous,mechanic,3,11
+399,The pilot will arrive soon.,ambiguous,pilot,4,9
+400,"The scientist, who was tired, gave a lecture.",ambiguous,scientist,4,13
+401,"Before the meeting, the steward started the meeting.",unambiguous,steward,24,31
+402,"The chef joined the call, and he seemed focused.",unambiguous,chef,4,8
+403,The director sat down last week.,ambiguous,director,4,12
+404,"The analyst sent an email, and he seemed busy.",unambiguous,analyst,4,11
+405,"After answering questions, the translator sat down.",ambiguous,translator,31,41
+406,The older pharmacist explained the issue.,ambiguous,pharmacist,10,20
+407,"After closing the office, the fireman prepared carefully.",unambiguous,fireman,30,37
+408,"The therapist, who said he was focused, gave a lecture.",unambiguous,therapist,4,13
+409,The professor introduced himself politely.,unambiguous,professor,4,13
+410,The musician introduced herself politely.,unambiguous,musician,4,12
+411,Their consultant sat down.,ambiguous,consultant,6,16
+412,The counselor finished the report this morning.,ambiguous,counselor,4,13
+413,The artist returned later yesterday.,ambiguous,artist,4,10
+414,The quiet counselor smiled politely.,ambiguous,counselor,10,19
+415,"Because the consultant was worried, the consultant finished the report.",ambiguous,consultant,12,22
+416,The young analyst joined the call.,ambiguous,analyst,10,17
+417,My musician sent an email.,ambiguous,musician,3,11
+418,The emperor started the meeting.,unambiguous,emperor,4,11
+419,A teacher gave a short update.,ambiguous,teacher,2,9
+420,The coach forgot her phone.,unambiguous,coach,4,9
+421,"The artist, who was late, finished the report.",ambiguous,artist,4,10
+422,"The firewoman, who was available, joined the call.",unambiguous,firewoman,4,13
+423,The businesswoman smiled politely.,unambiguous,businesswoman,4,17
+424,"Before the meeting, the landlady sat down.",unambiguous,landlady,24,32
+425,A receptionist called yesterday.,ambiguous,receptionist,2,14
+426,Your writer waited outside.,ambiguous,writer,5,11
+427,Your scientist said he was ready.,unambiguous,scientist,5,14
+428,"Because the musician was busy, the musician left early.",ambiguous,musician,12,20
+429,My counselor said he was prepared.,unambiguous,counselor,3,12
+430,The principal will call later.,ambiguous,principal,4,13
+431,"Because the musician was calm, the musician spoke clearly.",ambiguous,musician,12,20
+432,The assistant waited outside last week.,ambiguous,assistant,4,13
+433,"After joining the call, the mechanic said she was late.",unambiguous,mechanic,28,36
+434,The engineer introduced herself politely.,unambiguous,engineer,4,12
+435,"Before the meeting, the photographer entered the room.",ambiguous,photographer,24,36
+436,"After reading the email, the principal said she was tired.",unambiguous,principal,29,38
+437,My chef joined the call.,ambiguous,chef,3,7
+438,"Before the meeting, the driver checked her coat.",unambiguous,driver,24,30
+439,"The lawyer, who said he was confident, worked late.",unambiguous,lawyer,4,10
+440,"The emperor, who was calm, made a decision.",unambiguous,emperor,4,11
+441,"After checking the schedule, the assistant worked late.",ambiguous,assistant,33,42
+442,The lawyer walked in quietly before the meeting.,ambiguous,lawyer,4,10
+443,The writer will finish the report.,ambiguous,writer,4,10
+444,My pilot waited outside.,ambiguous,pilot,3,8
+445,"Because the dentist was prepared, the dentist paused for a moment.",ambiguous,dentist,12,19
+446,"After joining the call, the photographer answered quickly.",ambiguous,photographer,28,40
+447,"The heroine, who was busy, arrived.",unambiguous,heroine,4,11
+448,The architect will call later.,ambiguous,architect,4,13
+449,The tired director said she would return later.,unambiguous,director,10,18
+450,"This morning, the king joined the call.",unambiguous,king,18,22
+451,The lawyer said he was ready.,unambiguous,lawyer,4,10
+452,"The teacher, who was prepared, finished the report.",ambiguous,teacher,4,11
+453,My journalist gave a short update.,ambiguous,journalist,3,13
+454,"The chairwoman, who was available, started the meeting.",unambiguous,chairwoman,4,14
+455,Our receptionist gave a lecture.,ambiguous,receptionist,4,16
+456,"After answering questions, the surgeon said she was late.",unambiguous,surgeon,31,38
+457,"The saleswoman, who was confident, finished the report.",unambiguous,saleswoman,4,14
+458,The hero asked a question.,unambiguous,hero,4,8
+459,A driver spoke clearly.,ambiguous,driver,2,8
+460,"After joining the call, the lawyer arrived.",ambiguous,lawyer,28,34
+461,Their dentist said he was busy.,unambiguous,dentist,6,13
+462,The consultant answered quickly.,ambiguous,consultant,4,14
+463,The musician will join the meeting.,ambiguous,musician,4,12
+464,"At noon, the chairman gave a short update.",unambiguous,chairman,13,21
+465,"After lunch, the queen finished the report.",unambiguous,queen,17,22
+466,The private designer sent an email.,ambiguous,designer,12,20
+467,"The landlord, who was available, finished the report.",unambiguous,landlord,4,12
+468,"After lunch, the policewoman made a decision.",unambiguous,policewoman,17,28
+469,The confident nurse said she would return later.,unambiguous,nurse,14,19
+470,The visiting duke waited outside.,unambiguous,duke,13,17
+471,"Because the therapist was late, the therapist walked in quietly.",ambiguous,therapist,12,21
+472,"The photographer, who was calm, prepared carefully.",ambiguous,photographer,4,16
+473,"Before the meeting, the therapist checked his bag.",unambiguous,therapist,24,33
+474,"After answering questions, the counselor said she was confident.",unambiguous,counselor,31,40
+475,"Before the meeting, the engineer checked her wallet.",unambiguous,engineer,24,32
+476,"Because the instructor was focused, the instructor joined the call.",ambiguous,instructor,12,22
+477,"Before the meeting, the engineer checked her notes.",unambiguous,engineer,24,32
+478,"Because the therapist was confident, the therapist waited outside.",ambiguous,therapist,12,21
+479,"The landlady, who was focused, left early.",unambiguous,landlady,4,12
+480,The junior journalist arrived.,ambiguous,journalist,11,21
+481,"Because the instructor was focused, the instructor gave a short update.",ambiguous,instructor,12,22
+482,"After answering questions, the manager walked in quietly.",ambiguous,manager,31,38
+483,"The therapist gave a lecture, and she seemed confident.",unambiguous,therapist,4,13
+484,The careful manager said she would return later.,unambiguous,manager,12,19
+485,The fireman returned later.,unambiguous,fireman,4,11
+486,The king sat down.,unambiguous,king,4,8
+487,"The artist, who was worried, stood near the window.",ambiguous,artist,4,10
+488,The friendly pharmacist waited outside.,ambiguous,pharmacist,13,23
+489,"The pharmacist, who was calm, paused for a moment.",ambiguous,pharmacist,4,14
+490,"The coach joined the call, and she seemed ready.",unambiguous,coach,4,9
+491,The translator said he was focused.,unambiguous,translator,4,14
+492,"Because the accountant was ready, the accountant returned later.",ambiguous,accountant,12,22
+493,The spokesman gave a short update.,unambiguous,spokesman,4,13
+494,The confident principal said she would return later.,unambiguous,principal,14,23
+495,Their receptionist arrived.,ambiguous,receptionist,6,18
+496,The mechanic answered quickly in the afternoon.,ambiguous,mechanic,4,12
+497,The librarian asked a question.,ambiguous,librarian,4,13
+498,The artist stood near the window.,ambiguous,artist,4,10
+499,A analyst opened the door.,ambiguous,analyst,2,9
+500,"After closing the office, the consultant prepared carefully.",ambiguous,consultant,30,40
+501,"After reading the email, the receptionist said she was focused.",unambiguous,receptionist,29,41
+502,The analyst answered quickly.,ambiguous,analyst,4,11
+503,Their accountant said he was tired.,unambiguous,accountant,6,16
+504,The engineer opened the door.,ambiguous,engineer,4,12
+505,Your developer said he was confident.,unambiguous,developer,5,14
+506,Your pharmacist gave a lecture.,ambiguous,pharmacist,5,15
+507,"The artist, who was available, called yesterday.",ambiguous,artist,4,10
+508,The accountant said he will speak tomorrow.,unambiguous,accountant,4,14
+509,Their pilot said she was available.,unambiguous,pilot,6,11
+510,The supervisor will call later.,ambiguous,supervisor,4,14
+511,Our accountant said he was late.,unambiguous,accountant,4,14
+512,"Near the end of the day, the consultant gave a lecture.",ambiguous,consultant,29,39
+513,"After joining the call, the actress paused for a moment.",unambiguous,actress,28,35
+514,The quiet assistant finished the report.,ambiguous,assistant,10,19
+515,My accountant said he was late.,unambiguous,accountant,3,13
+516,The researcher forgot her laptop.,unambiguous,researcher,4,14
+517,"The assistant asked a question, and she seemed available.",unambiguous,assistant,4,13
+518,The scientist gave a lecture on Monday.,ambiguous,scientist,4,13
+519,The artist introduced himself politely.,unambiguous,artist,4,10
+520,The nurse entered the room.,ambiguous,nurse,4,9
+521,"After lunch, the firewoman sat down.",unambiguous,firewoman,17,26
+522,"Last week, the hostess made a decision.",unambiguous,hostess,15,22
+523,"After reading the email, the instructor said he was focused.",unambiguous,instructor,29,39
+524,The designer said she was worried.,unambiguous,designer,4,12
+525,The teacher said she will finish the report.,unambiguous,teacher,4,11
+526,The musician forgot his schedule.,unambiguous,musician,4,12
+527,"The waiter, who was ready, gave a lecture.",unambiguous,waiter,4,10
+528,"Last week, the businessman answered quickly.",unambiguous,businessman,15,26
+529,"Because the librarian was worried, the librarian answered quickly.",ambiguous,librarian,12,21
+530,"At noon, the hero opened the door.",unambiguous,hero,13,17
+531,The duchess gave a short update.,unambiguous,duchess,4,11
+532,Their receptionist smiled politely.,ambiguous,receptionist,6,18
+533,"After preparing the report, the receptionist paused for a moment.",ambiguous,receptionist,32,44
+534,The experienced prince checked the schedule.,unambiguous,prince,16,22
+535,The busy queen called yesterday.,unambiguous,queen,9,14
+536,The pharmacist paused for a moment in the afternoon.,ambiguous,pharmacist,4,14
+537,The friendly hero sat down.,unambiguous,hero,13,17
+538,The developer worked late after lunch.,ambiguous,developer,4,13
+539,"The artist asked a question, and he seemed focused.",unambiguous,artist,4,10
+540,The chef smiled politely.,ambiguous,chef,4,8
+541,The pharmacist started the meeting last week.,ambiguous,pharmacist,4,14
+542,"After reviewing the notes, the landlord smiled politely.",unambiguous,landlord,31,39
+543,A pilot walked in quietly.,ambiguous,pilot,2,7
+544,"Because the professor was calm, the professor called yesterday.",ambiguous,professor,12,21
+545,A editor called yesterday.,ambiguous,editor,2,8
+546,"Because the receptionist was late, the receptionist left early.",ambiguous,receptionist,12,24
+547,The surgeon joined the call.,ambiguous,surgeon,4,11
+548,"Because the photographer was ready, the photographer answered quickly.",ambiguous,photographer,12,24
+549,"Yesterday, the chef answered quickly.",ambiguous,chef,15,19
+550,The new translator waited outside.,ambiguous,translator,8,18
+551,A accountant answered quickly.,ambiguous,accountant,2,12
+552,The architect entered the room at noon.,ambiguous,architect,4,13
+553,"Before the meeting, the writer checked her phone.",unambiguous,writer,24,30
+554,"After finishing work, the veterinarian said she was ready.",unambiguous,veterinarian,26,38
+555,The policewoman explained the issue.,unambiguous,policewoman,4,15
+556,The receptionist introduced herself politely.,unambiguous,receptionist,4,16
+557,"The empress, who was confident, finished the report.",unambiguous,empress,4,11
+558,Their editor called yesterday.,ambiguous,editor,6,12
+559,The researcher will finish the report.,ambiguous,researcher,4,14
+560,"After finishing work, the pilot sat down.",ambiguous,pilot,26,31
+561,The hero stood near the window.,unambiguous,hero,4,8
+562,The developer explained the issue.,ambiguous,developer,4,13
+563,The experienced pilot said he would return later.,unambiguous,pilot,16,21
+564,The pharmacist sat down at noon.,ambiguous,pharmacist,4,14
+565,My scientist said he was prepared.,unambiguous,scientist,3,12
+566,The junior king entered the room.,unambiguous,king,11,15
+567,The mechanic made a decision yesterday.,ambiguous,mechanic,4,12
+568,"Because the instructor was confident, the instructor left early.",ambiguous,instructor,12,22
+569,Our assistant paused for a moment.,ambiguous,assistant,4,13
+570,"The saleswoman, who was tired, paused for a moment.",unambiguous,saleswoman,4,14
+571,The driver gave a short update.,ambiguous,driver,4,10
+572,"The doctor, who was busy, gave a lecture.",ambiguous,doctor,4,10
+573,"Because the scientist was tired, the scientist opened the door.",ambiguous,scientist,12,21
+574,The supervisor waited outside.,ambiguous,supervisor,4,14
+575,"In the afternoon, the musician gave a lecture.",ambiguous,musician,22,30
+576,The tired accountant said he would return later.,unambiguous,accountant,10,20
+577,The spokeswoman asked a question.,unambiguous,spokeswoman,4,15
+578,"On Monday, the steward left early.",unambiguous,steward,15,22
+579,The tired designer gave a short update.,ambiguous,designer,10,18
+580,The pharmacist opened the door this morning.,ambiguous,pharmacist,4,14
+581,"Last week, the chairwoman finished the report.",unambiguous,chairwoman,15,25
+582,The experienced mechanic waited outside.,ambiguous,mechanic,16,24
+583,Our driver explained the issue.,ambiguous,driver,4,10
+584,The busy instructor checked the schedule.,ambiguous,instructor,9,19
+585,"The congressman, who was worried, worked late.",unambiguous,congressman,4,15
+586,The famous emperor called yesterday.,unambiguous,emperor,11,18
+587,"The accountant, who was worried, smiled politely.",ambiguous,accountant,4,14
+588,The photographer gave a lecture near the end of the day.,ambiguous,photographer,4,16
+589,Your principal said he was tired.,unambiguous,principal,5,14
+590,"Because the engineer was available, the engineer asked a question.",ambiguous,engineer,12,20
+591,The empress left early.,unambiguous,empress,4,11
+592,The researcher said she was available.,unambiguous,researcher,4,14
+593,"After answering questions, the policewoman arrived.",unambiguous,policewoman,31,42
+594,The queen explained the issue.,unambiguous,queen,4,9
+595,The translator left early at noon.,ambiguous,translator,4,14
+596,A doctor joined the call.,ambiguous,doctor,2,8
+597,"The waiter, who was late, left early.",unambiguous,waiter,4,10
+598,"After finishing work, the chairman gave a lecture.",unambiguous,chairman,26,34
+599,The director sent an email at noon.,ambiguous,director,4,12
+600,The junior driver said he would return later.,unambiguous,driver,11,17
+601,"The heroine, who was tired, asked a question.",unambiguous,heroine,4,11
+602,The local landlord spoke clearly.,unambiguous,landlord,10,18
+603,My artist said he was ready.,unambiguous,artist,3,9
+604,"This morning, the developer asked a question.",ambiguous,developer,18,27
+605,The lawyer said he will join the meeting.,unambiguous,lawyer,4,10
+606,"Last week, the journalist waited outside.",ambiguous,journalist,15,25
+607,The photographer spoke clearly after lunch.,ambiguous,photographer,4,16
+608,"Before the meeting, the instructor checked his notebook.",unambiguous,instructor,24,34
+609,The busy journalist said he would return later.,unambiguous,journalist,9,19
+610,"The journalist, who was busy, joined the call.",ambiguous,journalist,4,14
+611,"The lawyer called yesterday, and he seemed calm.",unambiguous,lawyer,4,10
+612,The editor checked the schedule.,ambiguous,editor,4,10
+613,A professor smiled politely.,ambiguous,professor,2,11
+614,"Because the analyst was confident, the analyst sent an email.",ambiguous,analyst,12,19
+615,"After preparing the report, the duke entered the room.",unambiguous,duke,32,36
+616,"The librarian, who was tired, entered the room.",ambiguous,librarian,4,13
+617,"The congressman, who was prepared, gave a lecture.",unambiguous,congressman,4,15
+618,"Because the musician was tired, the musician paused for a moment.",ambiguous,musician,12,20
+619,The lawyer answered quickly.,ambiguous,lawyer,4,10
+620,The chef said she was calm.,unambiguous,chef,4,8
+621,"The engineer, who said she was tired, opened the door.",unambiguous,engineer,4,12
+622,The writer paused for a moment near the end of the day.,ambiguous,writer,4,10
+623,My writer said she was available.,unambiguous,writer,3,9
+624,The librarian said she was calm.,unambiguous,librarian,4,13
+625,The chairwoman walked in quietly.,unambiguous,chairwoman,4,14
+626,Their driver started the meeting.,ambiguous,driver,6,12
+627,"Before the meeting, the teacher checked his wallet.",unambiguous,teacher,24,31
+628,A translator smiled politely.,ambiguous,translator,2,12
+629,The assistant forgot her wallet.,unambiguous,assistant,4,13
+630,"Last week, the dentist answered quickly.",ambiguous,dentist,15,22
+631,"Before the meeting, the pharmacist checked her badge.",unambiguous,pharmacist,24,34
+632,"On Monday, the congressman paused for a moment.",unambiguous,congressman,15,26
+633,The librarian introduced himself politely.,unambiguous,librarian,4,13
+634,The hostess started the meeting.,unambiguous,hostess,4,11
+635,The tired scientist said he would return later.,unambiguous,scientist,10,19
+636,"Because the consultant was calm, the consultant answered quickly.",ambiguous,consultant,12,22
+637,The local pilot gave a lecture.,ambiguous,pilot,10,15
+638,The lawyer forgot her schedule.,unambiguous,lawyer,4,10
+639,"The instructor, who was confident, joined the call.",ambiguous,instructor,4,14
+640,Your receptionist made a decision.,ambiguous,receptionist,5,17
+641,The chef arrived.,ambiguous,chef,4,8
+642,The therapist asked a question.,ambiguous,therapist,4,13
+643,The quiet researcher said he would return later.,unambiguous,researcher,10,20
+644,The duchess asked a question.,unambiguous,duchess,4,11
+645,"The surgeon gave a lecture, and she seemed available.",unambiguous,surgeon,4,11
+646,"The lawyer, who was prepared, smiled politely.",ambiguous,lawyer,4,10
+647,The saleswoman stood near the window.,unambiguous,saleswoman,4,14
+648,The host returned later.,unambiguous,host,4,8
+649,The senior chef smiled politely.,ambiguous,chef,11,15
+650,"After checking the schedule, the counselor returned later.",ambiguous,counselor,33,42
+651,"Yesterday, the princess started the meeting.",unambiguous,princess,15,23
+652,"The musician, who was confident, paused for a moment.",ambiguous,musician,4,12
+653,My driver walked in quietly.,ambiguous,driver,3,9
+654,The dentist returned later.,ambiguous,dentist,4,11
+655,"The businesswoman, who was calm, checked the schedule.",unambiguous,businesswoman,4,17
+656,"The coach, who was ready, joined the call.",ambiguous,coach,4,9
+657,"After checking the schedule, the nurse answered quickly.",ambiguous,nurse,33,38
+658,My photographer opened the door.,ambiguous,photographer,3,15
+659,"After reading the email, the therapist said he was calm.",unambiguous,therapist,29,38
+660,"The principal, who said she was prepared, sat down.",unambiguous,principal,4,13
+661,The older scientist called yesterday.,ambiguous,scientist,10,19
+662,The manager forgot his badge.,unambiguous,manager,4,11
+663,"The surgeon, who was tired, checked the schedule.",ambiguous,surgeon,4,11
+664,The senior salesman gave a short update.,unambiguous,salesman,11,19
+665,The friendly manager said she would return later.,unambiguous,manager,13,20
+666,"Because the journalist was busy, the journalist checked the schedule.",ambiguous,journalist,12,22
+667,My therapist said he was tired.,unambiguous,therapist,3,12
+668,"The scientist, who said he was late, paused for a moment.",unambiguous,scientist,4,13
+669,The assistant said he will speak tomorrow.,unambiguous,assistant,4,13
+670,"Because the writer was confident, the writer finished the report.",ambiguous,writer,12,18
+671,Your supervisor started the meeting.,ambiguous,supervisor,5,15
+672,"The fireman, who was calm, spoke clearly.",unambiguous,fireman,4,11
+673,"After answering questions, the hostess sat down.",unambiguous,hostess,31,38
+674,"Because the artist was available, the artist entered the room.",ambiguous,artist,12,18
+675,The spokesman walked in quietly.,unambiguous,spokesman,4,13
+676,"Because the counselor was tired, the counselor worked late.",ambiguous,counselor,12,21
+677,"After preparing the report, the policeman smiled politely.",unambiguous,policeman,32,41
+678,The tired surgeon worked late.,ambiguous,surgeon,10,17
+679,"After joining the call, the policewoman sat down.",unambiguous,policewoman,28,39
+680,"The landlord, who was available, explained the issue.",unambiguous,landlord,4,12
+681,"The artist, who was worried, answered quickly.",ambiguous,artist,4,10
+682,"After reading the email, the lawyer said he was ready.",unambiguous,lawyer,29,35
+683,The developer said he was confident.,unambiguous,developer,4,13
+684,My researcher joined the call.,ambiguous,researcher,3,13
+685,The consultant explained the issue.,ambiguous,consultant,4,14
+686,"The king, who was confident, answered quickly.",unambiguous,king,4,8
+687,Their teacher said he was late.,unambiguous,teacher,6,13
+688,"The surgeon, who was late, checked the schedule.",ambiguous,surgeon,4,11
+689,"Before the meeting, the principal checked his bag.",unambiguous,principal,24,33
+690,"The counselor arrived, and she seemed late.",unambiguous,counselor,4,13
+691,The hostess asked a question.,unambiguous,hostess,4,11
+692,The busy architect asked a question.,ambiguous,architect,9,18
+693,The director said she will join the meeting.,unambiguous,director,4,12
+694,"Because the editor was prepared, the editor spoke clearly.",ambiguous,editor,12,18
+695,"This morning, the spokeswoman started the meeting.",unambiguous,spokeswoman,18,29
+696,"Because the designer was prepared, the designer stood near the window.",ambiguous,designer,12,20
+697,The doctor sat down this morning.,ambiguous,doctor,4,10
+698,Your accountant said he was worried.,unambiguous,accountant,5,15
+699,"Before the meeting, the librarian spoke clearly.",ambiguous,librarian,24,33
+700,"The engineer, who was busy, made a decision.",ambiguous,engineer,4,12
+701,"The translator, who said he was available, waited outside.",unambiguous,translator,4,14
+702,"After preparing the report, the lawyer smiled politely.",ambiguous,lawyer,32,38
+703,The coach introduced himself politely.,unambiguous,coach,4,9
+704,"After finishing work, the duke checked the schedule.",unambiguous,duke,26,30
+705,"After answering questions, the consultant finished the report.",ambiguous,consultant,31,41
+706,The developer will join the meeting.,ambiguous,developer,4,13
+707,"After lunch, the analyst walked in quietly.",ambiguous,analyst,17,24
+708,The prince gave a lecture.,unambiguous,prince,4,10
+709,"The dentist, who was available, opened the door.",ambiguous,dentist,4,11
+710,The artist called yesterday before the meeting.,ambiguous,artist,4,10
+711,"Before the meeting, the engineer checked her schedule.",unambiguous,engineer,24,32
+712,"The veterinarian gave a lecture, and he seemed tired.",unambiguous,veterinarian,4,16
+713,"Before the meeting, the researcher checked her keys.",unambiguous,researcher,24,34
+714,The empress started the meeting.,unambiguous,empress,4,11
+715,The editor gave a short update after lunch.,ambiguous,editor,4,10
+716,The engineer said he was busy.,unambiguous,engineer,4,12
+717,The friendly saleswoman prepared carefully.,unambiguous,saleswoman,13,23
+718,The young driver said he would return later.,unambiguous,driver,10,16
+719,"After reading the email, the actress asked a question.",unambiguous,actress,29,36
+720,The editor returned later in the afternoon.,ambiguous,editor,4,10
+721,"After checking the schedule, the musician arrived.",ambiguous,musician,33,41
+722,The scientist will finish the report.,ambiguous,scientist,4,13
+723,"The chairman, who was calm, sent an email.",unambiguous,chairman,4,12
+724,The new chef started the meeting.,ambiguous,chef,8,12
+725,The researcher said he will call later.,unambiguous,researcher,4,14
+726,"Because the librarian was late, the librarian checked the schedule.",ambiguous,librarian,12,21
+727,"After lunch, the actress paused for a moment.",unambiguous,actress,17,24
+728,Our analyst returned later.,ambiguous,analyst,4,11
+729,"The analyst, who said he was available, finished the report.",unambiguous,analyst,4,11
+730,"The designer, who was focused, worked late.",ambiguous,designer,4,12
+731,The prince started the meeting.,unambiguous,prince,4,10
+732,"Because the assistant was busy, the assistant walked in quietly.",ambiguous,assistant,12,21
+733,The professor will call later.,ambiguous,professor,4,13
+734,"Because the dentist was confident, the dentist gave a lecture.",ambiguous,dentist,12,19
+735,"The emperor, who was busy, explained the issue.",unambiguous,emperor,4,11
+736,Their veterinarian said he was prepared.,unambiguous,veterinarian,6,18
+737,The artist said she will speak tomorrow.,unambiguous,artist,4,10
+738,"After checking the schedule, the counselor said he was late.",unambiguous,counselor,33,42
+739,The engineer forgot his badge.,unambiguous,engineer,4,12
+740,"After finishing work, the director said she was busy.",unambiguous,director,26,34
+741,The artist will arrive soon.,ambiguous,artist,4,10
+742,Their assistant gave a short update.,ambiguous,assistant,6,15
+743,"The analyst, who said he was calm, gave a short update.",unambiguous,analyst,4,11
+744,The editor sent an email.,ambiguous,editor,4,10
+745,"During the event, the empress walked in quietly.",unambiguous,empress,22,29
+746,The tired coach returned later.,ambiguous,coach,10,15
+747,The coach asked a question.,ambiguous,coach,4,9
+748,The instructor said she will arrive soon.,unambiguous,instructor,4,14
+749,"Because the consultant was calm, the consultant opened the door.",ambiguous,consultant,12,22
+750,The analyst introduced himself politely.,unambiguous,analyst,4,11
+751,"The chef, who said he was busy, returned later.",unambiguous,chef,4,8
+752,The pharmacist introduced himself politely.,unambiguous,pharmacist,4,14
+753,The driver gave a lecture yesterday.,ambiguous,driver,4,10
+754,The editor said he was calm.,unambiguous,editor,4,10
+755,"On Monday, the businessman gave a lecture.",unambiguous,businessman,15,26
+756,The instructor explained the issue before the meeting.,ambiguous,instructor,4,14
+757,"Before the meeting, the chef checked his schedule.",unambiguous,chef,24,28
+758,"The firewoman, who was confident, finished the report.",unambiguous,firewoman,4,13
+759,Their principal said he was available.,unambiguous,principal,6,15
+760,My engineer sat down.,ambiguous,engineer,3,11
+761,"After preparing the report, the coach joined the call.",ambiguous,coach,32,37
+762,The coach forgot his keys.,unambiguous,coach,4,9
+763,The famous editor said he would return later.,unambiguous,editor,11,17
+764,Our consultant said he was confident.,unambiguous,consultant,4,14
+765,Their musician spoke clearly.,ambiguous,musician,6,14
+766,"The driver checked the schedule, and she seemed available.",unambiguous,driver,4,10
+767,"Near the end of the day, the engineer sent an email.",ambiguous,engineer,29,37
+768,"Before the meeting, the therapist checked his laptop.",unambiguous,therapist,24,33
+769,"This morning, the fireman finished the report.",unambiguous,fireman,18,25
+770,Your mechanic paused for a moment.,ambiguous,mechanic,5,13
+771,"After preparing the report, the policewoman entered the room.",unambiguous,policewoman,32,43
+772,The visiting businessman arrived.,unambiguous,businessman,13,24
+773,"Because the pharmacist was late, the pharmacist arrived.",ambiguous,pharmacist,12,22
+774,The supervisor smiled politely after lunch.,ambiguous,supervisor,4,14
+775,"Before the meeting, the pilot checked her bag.",unambiguous,pilot,24,29
+776,Our manager said she was prepared.,unambiguous,manager,4,11
+777,The private assistant said he would return later.,unambiguous,assistant,12,21
+778,The older consultant started the meeting.,ambiguous,consultant,10,20
+779,"The veterinarian, who was busy, prepared carefully.",ambiguous,veterinarian,4,16
+780,"Because the assistant was confident, the assistant explained the issue.",ambiguous,assistant,12,21
+781,The doctor will speak tomorrow.,ambiguous,doctor,4,10
+782,Our photographer said he was busy.,unambiguous,photographer,4,16
+783,"The waiter, who was confident, smiled politely.",unambiguous,waiter,4,10
+784,The editor said she was focused.,unambiguous,editor,4,10
+785,The famous principal said he would return later.,unambiguous,principal,11,20
+786,The artist opened the door this morning.,ambiguous,artist,4,10
+787,"At noon, the designer arrived.",ambiguous,designer,13,21
+788,"The teacher, who said she was worried, sat down.",unambiguous,teacher,4,11
+789,The artist said she was worried.,unambiguous,artist,4,10
+790,"After answering questions, the developer gave a lecture.",ambiguous,developer,31,40
+791,"The director sent an email, and he seemed calm.",unambiguous,director,4,12
+792,"The chairman, who was calm, asked a question.",unambiguous,chairman,4,12
+793,The lawyer called yesterday yesterday.,ambiguous,lawyer,4,10
+794,"The congressman, who was worried, prepared carefully.",unambiguous,congressman,4,15
+795,"The consultant, who was worried, gave a lecture.",ambiguous,consultant,4,14
+796,My accountant said she was confident.,unambiguous,accountant,3,13
+797,The translator said she was focused.,unambiguous,translator,4,14
+798,"The translator sent an email, and she seemed worried.",unambiguous,translator,4,14
+799,My journalist waited outside.,ambiguous,journalist,3,13
+800,The chef will call later.,ambiguous,chef,4,8
+801,"After finishing work, the congressman started the meeting.",unambiguous,congressman,26,37
+802,The veterinarian said he was tired.,unambiguous,veterinarian,4,16
+803,"Yesterday, the actress prepared carefully.",unambiguous,actress,15,22
+804,"The driver, who said he was tired, prepared carefully.",unambiguous,driver,4,10
+805,The experienced consultant said she would return later.,unambiguous,consultant,16,26
+806,The lawyer walked in quietly after lunch.,ambiguous,lawyer,4,10
+807,My director checked the schedule.,ambiguous,director,3,11
+808,The counselor waited outside.,ambiguous,counselor,4,13
+809,The researcher said she was busy.,unambiguous,researcher,4,14
+810,"After finishing work, the nurse returned later.",ambiguous,nurse,26,31
+811,A mechanic called yesterday.,ambiguous,mechanic,2,10
+812,"During the event, the coach sent an email.",ambiguous,coach,22,27
+813,The director said she was available.,unambiguous,director,4,12
+814,The heroine left early.,unambiguous,heroine,4,11
+815,"The firewoman, who was calm, opened the door.",unambiguous,firewoman,4,13
+816,Your editor left early.,ambiguous,editor,5,11
+817,"The accountant, who was late, arrived.",ambiguous,accountant,4,14
+818,The confident editor left early.,ambiguous,editor,14,20
+819,"Before the meeting, the receptionist checked her wallet.",unambiguous,receptionist,24,36
+820,The doctor said she was tired.,unambiguous,doctor,4,10
+821,"On Monday, the policeman started the meeting.",unambiguous,policeman,15,24
+822,"The landlady, who was focused, made a decision.",unambiguous,landlady,4,12
+823,The designer called yesterday.,ambiguous,designer,4,12
+824,"Before the meeting, the counselor checked her coat.",unambiguous,counselor,24,33
+825,A supervisor prepared carefully.,ambiguous,supervisor,2,12
+826,"After joining the call, the queen sat down.",unambiguous,queen,28,33
+827,"After finishing work, the writer said she was focused.",unambiguous,writer,26,32
+828,"Before the meeting, the instructor checked his phone.",unambiguous,instructor,24,34
+829,The principal started the meeting last week.,ambiguous,principal,4,13
+830,"After closing the office, the spokeswoman answered quickly.",unambiguous,spokeswoman,30,41
+831,Our architect sat down.,ambiguous,architect,4,13
+832,The older manager said he would return later.,unambiguous,manager,10,17
+833,"The journalist, who said she was late, left early.",unambiguous,journalist,4,14
+834,The busy steward left early.,unambiguous,steward,9,16
+835,"After closing the office, the heroine checked the schedule.",unambiguous,heroine,30,37
+836,The confident policeman gave a short update.,unambiguous,policeman,14,23
+837,The duchess stood near the window.,unambiguous,duchess,4,11
+838,The designer said she will join the meeting.,unambiguous,designer,4,12
+839,The writer sat down.,ambiguous,writer,4,10
+840,"Because the artist was prepared, the artist arrived.",ambiguous,artist,12,18
+841,"After answering questions, the receptionist said she was calm.",unambiguous,receptionist,31,43
+842,"After reading the email, the journalist said she was late.",unambiguous,journalist,29,39
+843,The manager said he will join the meeting.,unambiguous,manager,4,11
+844,"After finishing work, the mechanic entered the room.",ambiguous,mechanic,26,34
+845,The pharmacist will finish the report.,ambiguous,pharmacist,4,14
+846,"Before the meeting, the scientist checked his notes.",unambiguous,scientist,24,33
+847,The consultant will finish the report.,ambiguous,consultant,4,14
+848,The pharmacist said he will finish the report.,unambiguous,pharmacist,4,14
+849,My architect finished the report.,ambiguous,architect,3,12
+850,Your lawyer paused for a moment.,ambiguous,lawyer,5,11
+851,"Because the translator was confident, the translator entered the room.",ambiguous,translator,12,22
+852,"Because the musician was late, the musician entered the room.",ambiguous,musician,12,20
+853,Our translator arrived.,ambiguous,translator,4,14
+854,"The pharmacist, who was ready, gave a short update.",ambiguous,pharmacist,4,14
+855,The dentist entered the room.,ambiguous,dentist,4,11
+856,"After closing the office, the mechanic explained the issue.",ambiguous,mechanic,30,38
+857,"After reading the email, the librarian worked late.",ambiguous,librarian,29,38
+858,The librarian finished the report before the meeting.,ambiguous,librarian,4,13
+859,"The designer, who was prepared, walked in quietly.",ambiguous,designer,4,12
+860,"After checking the schedule, the chairman sat down.",unambiguous,chairman,33,41
+861,"The editor, who said he was calm, smiled politely.",unambiguous,editor,4,10
+862,The consultant will join the meeting.,ambiguous,consultant,4,14
+863,The hero finished the report.,unambiguous,hero,4,8
+864,The older accountant said he would return later.,unambiguous,accountant,10,20
+865,Your supervisor paused for a moment.,ambiguous,supervisor,5,15
+866,"The manager, who said she was worried, stood near the window.",unambiguous,manager,4,11
+867,"Because the accountant was focused, the accountant explained the issue.",ambiguous,accountant,12,22
+868,The translator gave a short update yesterday.,ambiguous,translator,4,14
+869,The older translator said she would return later.,unambiguous,translator,10,20
+870,My driver said he was calm.,unambiguous,driver,3,9
+871,"After reviewing the notes, the dentist returned later.",ambiguous,dentist,31,38
+872,Your architect said he was calm.,unambiguous,architect,5,14
+873,A consultant opened the door.,ambiguous,consultant,2,12
+874,"Before the meeting, the empress arrived.",unambiguous,empress,24,31
+875,"The pharmacist joined the call, and she seemed late.",unambiguous,pharmacist,4,14
+876,"Because the artist was busy, the artist finished the report.",ambiguous,artist,12,18
+877,The dentist answered quickly after lunch.,ambiguous,dentist,4,11
+878,"The designer, who was busy, started the meeting.",ambiguous,designer,4,12
+879,The careful salesman spoke clearly.,unambiguous,salesman,12,20
+880,The stewardess explained the issue.,unambiguous,stewardess,4,14
+881,"Before the meeting, the doctor checked her badge.",unambiguous,doctor,24,30
+882,"The developer worked late, and she seemed focused.",unambiguous,developer,4,13
+883,"The fireman, who was prepared, worked late.",unambiguous,fireman,4,11
+884,The junior supervisor spoke clearly.,ambiguous,supervisor,11,21
+885,"The editor, who said she was focused, sat down.",unambiguous,editor,4,10
+886,"After joining the call, the assistant said he was focused.",unambiguous,assistant,28,37
+887,The teacher will speak tomorrow.,ambiguous,teacher,4,11
+888,The analyst will join the meeting.,ambiguous,analyst,4,11
+889,"After finishing work, the assistant made a decision.",ambiguous,assistant,26,35
+890,"Because the coach was confident, the coach answered quickly.",ambiguous,coach,12,17
+891,The pharmacist will speak tomorrow.,ambiguous,pharmacist,4,14
+892,"After answering questions, the artist said she was worried.",unambiguous,artist,31,37
+893,"The lawyer walked in quietly, and he seemed calm.",unambiguous,lawyer,4,10
+894,"After answering questions, the musician explained the issue.",ambiguous,musician,31,39
+895,"The analyst, who said he was available, sat down.",unambiguous,analyst,4,11
+896,"After checking the schedule, the architect called yesterday.",ambiguous,architect,33,42
+897,"After answering questions, the consultant said he was prepared.",unambiguous,consultant,31,41
+898,"Because the assistant was busy, the assistant joined the call.",ambiguous,assistant,12,21
+899,The therapist forgot her notes.,unambiguous,therapist,4,13
+900,The pharmacist said he was ready.,unambiguous,pharmacist,4,14
+901,Your editor explained the issue.,ambiguous,editor,5,11
+902,"After closing the office, the spokeswoman started the meeting.",unambiguous,spokeswoman,30,41
+903,The professor will finish the report.,ambiguous,professor,4,13
+904,"After answering questions, the receptionist called yesterday.",ambiguous,receptionist,31,43
+905,The director will finish the report.,ambiguous,director,4,12
+906,The dentist prepared carefully before the meeting.,ambiguous,dentist,4,11
+907,The fireman arrived.,unambiguous,fireman,4,11
+908,The scientist smiled politely at noon.,ambiguous,scientist,4,13
+909,The coach opened the door last week.,ambiguous,coach,4,9
+910,"After checking the schedule, the receptionist said he was tired.",unambiguous,receptionist,33,45
+911,The famous engineer spoke clearly.,ambiguous,engineer,11,19
+912,"Because the surgeon was prepared, the surgeon called yesterday.",ambiguous,surgeon,12,19
+913,"The veterinarian finished the report, and she seemed tired.",unambiguous,veterinarian,4,16
+914,The lawyer opened the door.,ambiguous,lawyer,4,10
+915,The friendly director called yesterday.,ambiguous,director,13,21
+916,"The photographer, who said he was calm, worked late.",unambiguous,photographer,4,16
+917,The new landlord returned later.,unambiguous,landlord,8,16
+918,"Before the meeting, the editor checked his wallet.",unambiguous,editor,24,30
+919,The quiet translator said he would return later.,unambiguous,translator,10,20
+920,The librarian said she will join the meeting.,unambiguous,librarian,4,13
+921,"After reading the email, the businessman sat down.",unambiguous,businessman,29,40
+922,The director returned later.,ambiguous,director,4,12
+923,"After joining the call, the chef stood near the window.",ambiguous,chef,28,32
+924,The principal will speak tomorrow.,ambiguous,principal,4,13
+925,The careful actress prepared carefully.,unambiguous,actress,12,19
+926,"After reading the email, the nurse sent an email.",ambiguous,nurse,29,34
+927,"Because the doctor was tired, the doctor paused for a moment.",ambiguous,doctor,12,18
+928,The confident firewoman sent an email.,unambiguous,firewoman,14,23
+929,The experienced librarian entered the room.,ambiguous,librarian,16,25
+930,The assistant made a decision this morning.,ambiguous,assistant,4,13
+931,The junior surgeon said he would return later.,unambiguous,surgeon,11,18
+932,The landlady answered quickly.,unambiguous,landlady,4,12
+933,The pharmacist left early.,ambiguous,pharmacist,4,14
+934,A nurse finished the report.,ambiguous,nurse,2,7
+935,The young artist said he would return later.,unambiguous,artist,10,16
+936,"Because the dentist was worried, the dentist returned later.",ambiguous,dentist,12,19
+937,"Because the instructor was prepared, the instructor opened the door.",ambiguous,instructor,12,22
+938,The quiet musician said he would return later.,unambiguous,musician,10,18
+939,The receptionist will join the meeting.,ambiguous,receptionist,4,16
+940,"The accountant started the meeting, and she seemed late.",unambiguous,accountant,4,14
+941,Their assistant said she was busy.,unambiguous,assistant,6,15
+942,"Before the meeting, the professor worked late.",ambiguous,professor,24,33
+943,Their chef started the meeting.,ambiguous,chef,6,10
+944,The pilot said she will join the meeting.,unambiguous,pilot,4,9
+945,"At noon, the hostess stood near the window.",unambiguous,hostess,13,20
+946,"Because the pilot was worried, the pilot left early.",ambiguous,pilot,12,17
+947,"The saleswoman, who was worried, returned later.",unambiguous,saleswoman,4,14
+948,The translator said he was prepared.,unambiguous,translator,4,14
+949,The queen called yesterday.,unambiguous,queen,4,9
+950,The director worked late.,ambiguous,director,4,12
+951,"Because the accountant was confident, the accountant stood near the window.",ambiguous,accountant,12,22
+952,The pharmacist explained the issue.,ambiguous,pharmacist,4,14
+953,"After reading the email, the supervisor waited outside.",ambiguous,supervisor,29,39
+954,The librarian started the meeting.,ambiguous,librarian,4,13
+955,The counselor will join the meeting.,ambiguous,counselor,4,13
+956,The instructor smiled politely.,ambiguous,instructor,4,14
+957,"Because the receptionist was prepared, the receptionist sat down.",ambiguous,receptionist,12,24
+958,The duchess smiled politely.,unambiguous,duchess,4,11
+959,"After checking the schedule, the researcher started the meeting.",ambiguous,researcher,33,43
+960,"The engineer, who said he was tired, sat down.",unambiguous,engineer,4,12
+961,The actress spoke clearly.,unambiguous,actress,4,11
+962,"The principal, who said she was confident, joined the call.",unambiguous,principal,4,13
+963,"In the afternoon, the stewardess started the meeting.",unambiguous,stewardess,22,32
+964,"After answering questions, the doctor returned later.",ambiguous,doctor,31,37
+965,The librarian sent an email in the afternoon.,ambiguous,librarian,4,13
+966,The lawyer will call later.,ambiguous,lawyer,4,10
+967,"The congressman, who was available, gave a short update.",unambiguous,congressman,4,15
+968,"After reading the email, the artist answered quickly.",ambiguous,artist,29,35
+969,The young teacher made a decision.,ambiguous,teacher,10,17
+970,My director said she was ready.,unambiguous,director,3,11
+971,"After joining the call, the manager smiled politely.",ambiguous,manager,28,35
+972,"The driver, who was calm, called yesterday.",ambiguous,driver,4,10
+973,The receptionist said he was confident.,unambiguous,receptionist,4,16
+974,"The waitress, who was ready, spoke clearly.",unambiguous,waitress,4,12
+975,The waiter stood near the window.,unambiguous,waiter,4,10
+976,The scientist made a decision last week.,ambiguous,scientist,4,13
+977,"This morning, the scientist worked late.",ambiguous,scientist,18,27
+978,"Because the musician was available, the musician waited outside.",ambiguous,musician,12,20
+979,"This morning, the designer opened the door.",ambiguous,designer,18,26
+980,The pharmacist sat down.,ambiguous,pharmacist,4,14
+981,"The assistant, who was prepared, worked late.",ambiguous,assistant,4,13
+982,The busy actor arrived.,unambiguous,actor,9,14
+983,"Before the meeting, the director explained the issue.",ambiguous,director,24,32
+984,The private actor prepared carefully.,unambiguous,actor,12,17
+985,Their nurse stood near the window.,ambiguous,nurse,6,11
+986,"The writer spoke clearly, and she seemed confident.",unambiguous,writer,4,10
+987,"The nurse, who was calm, made a decision.",ambiguous,nurse,4,9
+988,"After joining the call, the heroine called yesterday.",unambiguous,heroine,28,35
+989,The supervisor finished the report.,ambiguous,supervisor,4,14
+990,The musician prepared carefully.,ambiguous,musician,4,12
+991,The busy librarian said she would return later.,unambiguous,librarian,9,18
+992,"Because the pharmacist was focused, the pharmacist sent an email.",ambiguous,pharmacist,12,22
+993,The engineer left early this morning.,ambiguous,engineer,4,12
+994,The professor smiled politely before the meeting.,ambiguous,professor,4,13
+995,The editor checked the schedule before the meeting.,ambiguous,editor,4,10
+996,The new consultant worked late.,ambiguous,consultant,8,18
+997,"Last week, the editor walked in quietly.",ambiguous,editor,15,21
+998,The local photographer said he would return later.,unambiguous,photographer,10,22
+999,"The analyst started the meeting, and she seemed busy.",unambiguous,analyst,4,11
+1000,The junior editor prepared carefully.,ambiguous,editor,11,17
+1001,"Because the researcher was ready, the researcher waited outside.",ambiguous,researcher,12,22
+1002,The designer said he was worried.,unambiguous,designer,4,12
+1003,The architect worked late.,ambiguous,architect,4,13
+1004,"The counselor, who was late, gave a short update.",ambiguous,counselor,4,13
+1005,"After joining the call, the consultant said she was busy.",unambiguous,consultant,28,38
+1006,The junior queen started the meeting.,unambiguous,queen,11,16
+1007,"Because the editor was focused, the editor joined the call.",ambiguous,editor,12,18
+1008,The nurse forgot his notes.,unambiguous,nurse,4,9
+1009,"Because the director was available, the director stood near the window.",ambiguous,director,12,20
+1010,"The mechanic, who was confident, joined the call.",ambiguous,mechanic,4,12
+1011,"The scientist, who was available, explained the issue.",ambiguous,scientist,4,13
+1012,The librarian said she will finish the report.,unambiguous,librarian,4,13
+1013,The surgeon forgot her notebook.,unambiguous,surgeon,4,11
+1014,"After finishing work, the manager said he was calm.",unambiguous,manager,26,33
+1015,"The librarian, who said he was ready, sent an email.",unambiguous,librarian,4,13
+1016,"After reading the email, the therapist joined the call.",ambiguous,therapist,29,38
+1017,"Yesterday, the director paused for a moment.",ambiguous,director,15,23
+1018,The librarian said he will finish the report.,unambiguous,librarian,4,13
+1019,"After reading the email, the journalist said she was tired.",unambiguous,journalist,29,39
+1020,"The nurse, who was prepared, made a decision.",ambiguous,nurse,4,9
+1021,"After reading the email, the journalist finished the report.",ambiguous,journalist,29,39
+1022,The veterinarian said he will finish the report.,unambiguous,veterinarian,4,16
+1023,"Because the lawyer was late, the lawyer paused for a moment.",ambiguous,lawyer,12,18
+1024,Our librarian explained the issue.,ambiguous,librarian,4,13
+1025,The quiet manager said he would return later.,unambiguous,manager,10,17
+1026,Your chef finished the report.,ambiguous,chef,5,9
+1027,"Because the mechanic was ready, the mechanic opened the door.",ambiguous,mechanic,12,20
+1028,The queen finished the report.,unambiguous,queen,4,9
+1029,The principal will arrive soon.,ambiguous,principal,4,13
+1030,Your artist worked late.,ambiguous,artist,5,11
+1031,"After preparing the report, the veterinarian said he was confident.",unambiguous,veterinarian,32,44
+1032,The developer forgot his schedule.,unambiguous,developer,4,13
+1033,"The empress, who was focused, made a decision.",unambiguous,empress,4,11
+1034,"In the afternoon, the editor returned later.",ambiguous,editor,22,28
+1035,"The princess, who was calm, sent an email.",unambiguous,princess,4,12
+1036,The new salesman called yesterday.,unambiguous,salesman,8,16
+1037,"After checking the schedule, the engineer waited outside.",ambiguous,engineer,33,41
+1038,"The counselor finished the report, and she seemed tired.",unambiguous,counselor,4,13
+1039,The senior duchess paused for a moment.,unambiguous,duchess,11,18
+1040,"The director, who said he was prepared, called yesterday.",unambiguous,director,4,12
+1041,The assistant entered the room.,ambiguous,assistant,4,13
+1042,"On Monday, the steward waited outside.",unambiguous,steward,15,22
+1043,Your musician waited outside.,ambiguous,musician,5,13
+1044,"After checking the schedule, the teacher finished the report.",ambiguous,teacher,33,40
+1045,"Before the meeting, the translator stood near the window.",ambiguous,translator,24,34
+1046,The veterinarian sent an email.,ambiguous,veterinarian,4,16
+1047,"During the event, the instructor checked the schedule.",ambiguous,instructor,22,32
+1048,My pharmacist sent an email.,ambiguous,pharmacist,3,13
+1049,"After closing the office, the driver said she was late.",unambiguous,driver,30,36
+1050,"Because the engineer was prepared, the engineer left early.",ambiguous,engineer,12,20
+1051,"After checking the schedule, the teacher smiled politely.",ambiguous,teacher,33,40
+1052,The young developer said he would return later.,unambiguous,developer,10,19
+1053,"Before the meeting, the lawyer returned later.",ambiguous,lawyer,24,30
+1054,"Before the meeting, the actor started the meeting.",unambiguous,actor,24,29
+1055,"The writer, who was tired, spoke clearly.",ambiguous,writer,4,10
+1056,My professor said she was late.,unambiguous,professor,3,12
+1057,"The actress, who was worried, asked a question.",unambiguous,actress,4,11
+1058,A pharmacist finished the report.,ambiguous,pharmacist,2,12
+1059,"On Monday, the spokesman gave a lecture.",unambiguous,spokesman,15,24
+1060,"After answering questions, the consultant said he was calm.",unambiguous,consultant,31,41
+1061,"The consultant waited outside, and he seemed tired.",unambiguous,consultant,4,14
+1062,The director gave a lecture.,ambiguous,director,4,12
+1063,"Last week, the waiter sent an email.",unambiguous,waiter,15,21
+1064,"The prince, who was tired, smiled politely.",unambiguous,prince,4,10
+1065,"After preparing the report, the professor smiled politely.",ambiguous,professor,32,41
+1066,The writer explained the issue at noon.,ambiguous,writer,4,10
+1067,The visiting congresswoman returned later.,unambiguous,congresswoman,13,26
+1068,The new pilot joined the call.,ambiguous,pilot,8,13
+1069,"The prince, who was busy, checked the schedule.",unambiguous,prince,4,10
+1070,"After reading the email, the landlord explained the issue.",unambiguous,landlord,29,37
+1071,The senior researcher said he would return later.,unambiguous,researcher,11,21
+1072,Our coach finished the report.,ambiguous,coach,4,9
+1073,The surgeon gave a short update.,ambiguous,surgeon,4,11
+1074,"Because the developer was late, the developer paused for a moment.",ambiguous,developer,12,21
+1075,The driver introduced herself politely.,unambiguous,driver,4,10
+1076,"Before the meeting, the actress gave a short update.",unambiguous,actress,24,31
+1077,The lawyer forgot his keys.,unambiguous,lawyer,4,10
+1078,"Because the artist was worried, the artist entered the room.",ambiguous,artist,12,18
+1079,The driver arrived.,ambiguous,driver,4,10
+1080,"After preparing the report, the therapist left early.",ambiguous,therapist,32,41
+1081,My librarian opened the door.,ambiguous,librarian,3,12
+1082,The photographer forgot his laptop.,unambiguous,photographer,4,16
+1083,"On Monday, the consultant sent an email.",ambiguous,consultant,15,25
+1084,"The receptionist sat down, and he seemed available.",unambiguous,receptionist,4,16
+1085,"The photographer, who said he was available, gave a lecture.",unambiguous,photographer,4,16
+1086,The librarian forgot her notes.,unambiguous,librarian,4,13
+1087,"On Monday, the landlord opened the door.",unambiguous,landlord,15,23
+1088,The engineer forgot his wallet.,unambiguous,engineer,4,12
+1089,"In the afternoon, the hero opened the door.",unambiguous,hero,22,26
+1090,The friendly assistant answered quickly.,ambiguous,assistant,13,22
+1091,The scientist said he was busy.,unambiguous,scientist,4,13
+1092,Your nurse said he was available.,unambiguous,nurse,5,10
+1093,The photographer said she will call later.,unambiguous,photographer,4,16
+1094,The pilot checked the schedule at noon.,ambiguous,pilot,4,9
+1095,"Yesterday, the supervisor walked in quietly.",ambiguous,supervisor,15,25
+1096,A assistant paused for a moment.,ambiguous,assistant,2,11
+1097,"After answering questions, the professor joined the call.",ambiguous,professor,31,40
+1098,"The director, who said he was tired, joined the call.",unambiguous,director,4,12
+1099,"After finishing work, the actress left early.",unambiguous,actress,26,33
+1100,"After joining the call, the spokeswoman prepared carefully.",unambiguous,spokeswoman,28,39
+1101,"The driver finished the report, and he seemed available.",unambiguous,driver,4,10
+1102,Our librarian walked in quietly.,ambiguous,librarian,4,13
+1103,My designer called yesterday.,ambiguous,designer,3,11
+1104,My surgeon joined the call.,ambiguous,surgeon,3,10
+1105,"Before the meeting, the chairwoman smiled politely.",unambiguous,chairwoman,24,34
+1106,"The congressman, who was late, paused for a moment.",unambiguous,congressman,4,15
+1107,"Yesterday, the supervisor sent an email.",ambiguous,supervisor,15,25
+1108,A analyst gave a short update.,ambiguous,analyst,2,9
+1109,"The mechanic, who was worried, finished the report.",ambiguous,mechanic,4,12
+1110,The pharmacist waited outside.,ambiguous,pharmacist,4,14
+1111,The architect introduced herself politely.,unambiguous,architect,4,13
+1112,"The musician, who was worried, gave a short update.",ambiguous,musician,4,12
+1113,"The director, who was prepared, asked a question.",ambiguous,director,4,12
+1114,"Before the meeting, the lawyer checked her schedule.",unambiguous,lawyer,24,30
+1115,"The translator waited outside, and he seemed worried.",unambiguous,translator,4,14
+1116,"Before the meeting, the doctor checked his schedule.",unambiguous,doctor,24,30
+1117,My artist left early.,ambiguous,artist,3,9
+1118,"The director, who said he was busy, explained the issue.",unambiguous,director,4,12
+1119,"After answering questions, the doctor entered the room.",ambiguous,doctor,31,37
+1120,The writer said she was calm.,unambiguous,writer,4,10
+1121,"After reading the email, the instructor said he was late.",unambiguous,instructor,29,39
+1122,"Before the meeting, the pharmacist checked her wallet.",unambiguous,pharmacist,24,34
+1123,"At noon, the mechanic paused for a moment.",ambiguous,mechanic,13,21
+1124,"After reviewing the notes, the chairman checked the schedule.",unambiguous,chairman,31,39
+1125,The friendly director said he would return later.,unambiguous,director,13,21
+1126,The musician entered the room before the meeting.,ambiguous,musician,4,12
+1127,The professor gave a short update.,ambiguous,professor,4,13
+1128,The director will join the meeting.,ambiguous,director,4,12
+1129,The scientist said she was focused.,unambiguous,scientist,4,13
+1130,"After finishing work, the engineer said he was calm.",unambiguous,engineer,26,34
+1131,The director started the meeting.,ambiguous,director,4,12
+1132,"The supervisor, who said he was worried, walked in quietly.",unambiguous,supervisor,4,14
+1133,The visiting editor said she would return later.,unambiguous,editor,13,19
+1134,"Because the librarian was focused, the librarian explained the issue.",ambiguous,librarian,12,21
+1135,"After checking the schedule, the steward sat down.",unambiguous,steward,33,40
+1136,The pilot forgot her bag.,unambiguous,pilot,4,9
+1137,Your dentist paused for a moment.,ambiguous,dentist,5,12
+1138,My writer finished the report.,ambiguous,writer,3,9
+1139,A manager explained the issue.,ambiguous,manager,2,9
+1140,The local artist said he would return later.,unambiguous,artist,10,16
+1141,"The supervisor gave a lecture, and she seemed prepared.",unambiguous,supervisor,4,14
+1142,The doctor gave a lecture.,ambiguous,doctor,4,10
+1143,The junior driver smiled politely.,ambiguous,driver,11,17
+1144,The chef finished the report on Monday.,ambiguous,chef,4,8
+1145,The teacher will arrive soon.,ambiguous,teacher,4,11
+1146,The private hero stood near the window.,unambiguous,hero,12,16
+1147,"During the event, the designer asked a question.",ambiguous,designer,22,30
+1148,"The consultant gave a lecture, and she seemed available.",unambiguous,consultant,4,14
+1149,"The journalist started the meeting, and she seemed late.",unambiguous,journalist,4,14
+1150,"Because the mechanic was tired, the mechanic walked in quietly.",ambiguous,mechanic,12,20
+1151,The tired surgeon said she would return later.,unambiguous,surgeon,10,17
+1152,Your designer arrived.,ambiguous,designer,5,13
+1153,"After finishing work, the mechanic called yesterday.",ambiguous,mechanic,26,34
+1154,"The engineer, who was busy, prepared carefully.",ambiguous,engineer,4,12
+1155,Your driver finished the report.,ambiguous,driver,5,11
+1156,My dentist gave a lecture.,ambiguous,dentist,3,10
+1157,The musician answered quickly.,ambiguous,musician,4,12
+1158,"After lunch, the coach made a decision.",ambiguous,coach,17,22
+1159,The engineer forgot his coat.,unambiguous,engineer,4,12
+1160,"After lunch, the teacher waited outside.",ambiguous,teacher,17,24
+1161,"Because the therapist was worried, the therapist sat down.",ambiguous,therapist,12,21
+1162,The senior artist called yesterday.,ambiguous,artist,11,17
+1163,The analyst introduced herself politely.,unambiguous,analyst,4,11
+1164,"The writer, who was available, started the meeting.",ambiguous,writer,4,10
+1165,"Before the meeting, the analyst checked his bag.",unambiguous,analyst,24,31
+1166,The doctor said she will call later.,unambiguous,doctor,4,10
+1167,"After closing the office, the analyst said she was available.",unambiguous,analyst,30,37
+1168,Their photographer opened the door.,ambiguous,photographer,6,18
+1169,The actress walked in quietly.,unambiguous,actress,4,11
+1170,"The veterinarian, who was calm, gave a short update.",ambiguous,veterinarian,4,16
+1171,The editor will arrive soon.,ambiguous,editor,4,10
+1172,"After preparing the report, the duke smiled politely.",unambiguous,duke,32,36
+1173,"After joining the call, the driver waited outside.",ambiguous,driver,28,34
+1174,The teacher forgot his phone.,unambiguous,teacher,4,11
+1175,The receptionist gave a short update.,ambiguous,receptionist,4,16
+1176,"After reading the email, the host worked late.",unambiguous,host,29,33
+1177,"This morning, the pilot walked in quietly.",ambiguous,pilot,18,23
+1178,A scientist opened the door.,ambiguous,scientist,2,11
+1179,The consultant arrived during the event.,ambiguous,consultant,4,14
+1180,"The designer, who said he was prepared, answered quickly.",unambiguous,designer,4,12
+1181,The visiting mechanic smiled politely.,ambiguous,mechanic,13,21
+1182,The coach answered quickly during the event.,ambiguous,coach,4,9
+1183,The chef waited outside.,ambiguous,chef,4,8
+1184,"The director paused for a moment, and she seemed available.",unambiguous,director,4,12
+1185,"Before the meeting, the assistant checked her badge.",unambiguous,assistant,24,33
+1186,The supervisor introduced himself politely.,unambiguous,supervisor,4,14
+1187,The mechanic sent an email near the end of the day.,ambiguous,mechanic,4,12
+1188,"After reviewing the notes, the manager prepared carefully.",ambiguous,manager,31,38
+1189,"Because the doctor was tired, the doctor sat down.",ambiguous,doctor,12,18
+1190,The dentist started the meeting.,ambiguous,dentist,4,11
+1191,The chef introduced herself politely.,unambiguous,chef,4,8
+1192,The writer said he will arrive soon.,unambiguous,writer,4,10
+1193,The professor left early.,ambiguous,professor,4,13
+1194,"The host, who was available, opened the door.",unambiguous,host,4,8
+1195,The coach stood near the window at noon.,ambiguous,coach,4,9
+1196,"After finishing work, the analyst made a decision.",ambiguous,analyst,26,33
+1197,A director worked late.,ambiguous,director,2,10
+1198,"After preparing the report, the supervisor gave a lecture.",ambiguous,supervisor,32,42
+1199,"The nurse entered the room, and she seemed focused.",unambiguous,nurse,4,9
+1200,"After answering questions, the waitress finished the report.",unambiguous,waitress,31,39
+1201,The driver said she was calm.,unambiguous,driver,4,10
+1202,The private policewoman gave a lecture.,unambiguous,policewoman,12,23
+1203,A professor explained the issue.,ambiguous,professor,2,11
+1204,"The director made a decision, and she seemed busy.",unambiguous,director,4,12
+1205,"Because the instructor was ready, the instructor arrived.",ambiguous,instructor,12,22
+1206,"The teacher, who was available, gave a lecture.",ambiguous,teacher,4,11
+1207,"The accountant, who was confident, called yesterday.",ambiguous,accountant,4,14
+1208,"After finishing work, the artist made a decision.",ambiguous,artist,26,32
+1209,"The musician, who said he was calm, made a decision.",unambiguous,musician,4,12
+1210,"The manager, who was confident, gave a lecture.",ambiguous,manager,4,11
+1211,The coach forgot his badge.,unambiguous,coach,4,9
+1212,"After answering questions, the dentist said he was tired.",unambiguous,dentist,31,38
+1213,"Because the photographer was available, the photographer gave a short update.",ambiguous,photographer,12,24
+1214,The local counselor said he would return later.,unambiguous,counselor,10,19
+1215,"After closing the office, the lawyer sat down.",ambiguous,lawyer,30,36
+1216,"Because the instructor was worried, the instructor stood near the window.",ambiguous,instructor,12,22
+1217,"Because the researcher was prepared, the researcher smiled politely.",ambiguous,researcher,12,22
+1218,The pharmacist stood near the window.,ambiguous,pharmacist,4,14
+1219,The counselor said he will call later.,unambiguous,counselor,4,13
+1220,The teacher arrived.,ambiguous,teacher,4,11
+1221,The manager returned later.,ambiguous,manager,4,11
+1222,The director asked a question.,ambiguous,director,4,12
+1223,My veterinarian said he was ready.,unambiguous,veterinarian,3,15
+1224,The surgeon forgot his coat.,unambiguous,surgeon,4,11
+1225,The veterinarian walked in quietly.,ambiguous,veterinarian,4,16
+1226,"The consultant spoke clearly, and he seemed ready.",unambiguous,consultant,4,14
+1227,"The writer, who said he was worried, left early.",unambiguous,writer,4,10
+1228,The journalist forgot his bag.,unambiguous,journalist,4,14
+1229,The dentist worked late last week.,ambiguous,dentist,4,11
+1230,"The prince, who was busy, sent an email.",unambiguous,prince,4,10
+1231,The principal said he will join the meeting.,unambiguous,principal,4,13
+1232,The driver said he was calm.,unambiguous,driver,4,10
+1233,Our veterinarian said he was confident.,unambiguous,veterinarian,4,16
+1234,"After preparing the report, the consultant walked in quietly.",ambiguous,consultant,32,42
+1235,The journalist said he was focused.,unambiguous,journalist,4,14
+1236,Their consultant said he was confident.,unambiguous,consultant,6,16
+1237,The busy doctor paused for a moment.,ambiguous,doctor,9,15
+1238,"The manager, who said he was worried, opened the door.",unambiguous,manager,4,11
+1239,"The principal, who was worried, asked a question.",ambiguous,principal,4,13
+1240,The architect forgot her bag.,unambiguous,architect,4,13
+1241,"The chef waited outside, and she seemed confident.",unambiguous,chef,4,8
+1242,"The engineer, who said she was ready, started the meeting.",unambiguous,engineer,4,12
+1243,"After finishing work, the princess worked late.",unambiguous,princess,26,34
+1244,"The receptionist, who was tired, joined the call.",ambiguous,receptionist,4,16
+1245,The chef will arrive soon.,ambiguous,chef,4,8
+1246,The king joined the call.,unambiguous,king,4,8
+1247,The senior librarian said he would return later.,unambiguous,librarian,11,20
+1248,The designer said she was busy.,unambiguous,designer,4,12
+1249,The architect will arrive soon.,ambiguous,architect,4,13
+1250,The coach said she will finish the report.,unambiguous,coach,4,9
+1251,"After reading the email, the writer said he was worried.",unambiguous,writer,29,35
+1252,"Because the editor was late, the editor paused for a moment.",ambiguous,editor,12,18
+1253,"After joining the call, the architect waited outside.",ambiguous,architect,28,37
+1254,The pilot introduced himself politely.,unambiguous,pilot,4,9
+1255,"The queen, who was prepared, sat down.",unambiguous,queen,4,9
+1256,"After checking the schedule, the doctor said he was tired.",unambiguous,doctor,33,39
+1257,The veterinarian gave a lecture this morning.,ambiguous,veterinarian,4,16
+1258,"After joining the call, the scientist opened the door.",ambiguous,scientist,28,37
+1259,"After joining the call, the instructor checked the schedule.",ambiguous,instructor,28,38
+1260,"Because the pharmacist was busy, the pharmacist walked in quietly.",ambiguous,pharmacist,12,22
+1261,Our nurse spoke clearly.,ambiguous,nurse,4,9
+1262,The careful chairwoman called yesterday.,unambiguous,chairwoman,12,22
+1263,"The scientist, who was focused, started the meeting.",ambiguous,scientist,4,13
+1264,The junior waitress worked late.,unambiguous,waitress,11,19
+1265,"The engineer asked a question, and he seemed available.",unambiguous,engineer,4,12
+1266,Their researcher started the meeting.,ambiguous,researcher,6,16
+1267,The spokeswoman opened the door.,unambiguous,spokeswoman,4,15
+1268,The hero sent an email.,unambiguous,hero,4,8
+1269,The local hero made a decision.,unambiguous,hero,10,14
+1270,"Yesterday, the supervisor gave a lecture.",ambiguous,supervisor,15,25
+1271,The mechanic forgot her keys.,unambiguous,mechanic,4,12
+1272,The researcher checked the schedule.,ambiguous,researcher,4,14
+1273,"After reviewing the notes, the counselor smiled politely.",ambiguous,counselor,31,40
+1274,"Near the end of the day, the coach checked the schedule.",ambiguous,coach,29,34
+1275,The accountant said she will speak tomorrow.,unambiguous,accountant,4,14
+1276,"This morning, the spokeswoman asked a question.",unambiguous,spokeswoman,18,29
+1277,"Yesterday, the manager called yesterday.",ambiguous,manager,15,22
+1278,Your pilot paused for a moment.,ambiguous,pilot,5,10
+1279,The actor started the meeting.,unambiguous,actor,4,9
+1280,"Before the meeting, the researcher checked his phone.",unambiguous,researcher,24,34
+1281,"The accountant, who was ready, called yesterday.",ambiguous,accountant,4,14
+1282,"In the afternoon, the prince checked the schedule.",unambiguous,prince,22,28
+1283,The editor arrived at noon.,ambiguous,editor,4,10
+1284,"On Monday, the designer asked a question.",ambiguous,designer,15,23
+1285,The experienced assistant smiled politely.,ambiguous,assistant,16,25
+1286,The surgeon spoke clearly during the event.,ambiguous,surgeon,4,11
+1287,The surgeon started the meeting before the meeting.,ambiguous,surgeon,4,11
+1288,The accountant explained the issue in the afternoon.,ambiguous,accountant,4,14
+1289,"The salesman, who was available, paused for a moment.",unambiguous,salesman,4,12
+1290,"The photographer sent an email, and he seemed prepared.",unambiguous,photographer,4,16
+1291,"After answering questions, the professor said he was tired.",unambiguous,professor,31,40
+1292,The accountant will speak tomorrow.,ambiguous,accountant,4,14
+1293,The receptionist will speak tomorrow.,ambiguous,receptionist,4,16
+1294,"Before the meeting, the instructor checked his badge.",unambiguous,instructor,24,34
+1295,The editor said she will arrive soon.,unambiguous,editor,4,10
+1296,The manager smiled politely.,ambiguous,manager,4,11
+1297,The manager prepared carefully.,ambiguous,manager,4,11
+1298,The pharmacist left early this morning.,ambiguous,pharmacist,4,14
+1299,My doctor returned later.,ambiguous,doctor,3,9
+1300,My professor entered the room.,ambiguous,professor,3,12
+1301,The landlord worked late.,unambiguous,landlord,4,12
+1302,The busy duchess checked the schedule.,unambiguous,duchess,9,16
+1303,Your writer said she was prepared.,unambiguous,writer,5,11
+1304,The translator said she will speak tomorrow.,unambiguous,translator,4,14
+1305,"The chef, who said he was calm, explained the issue.",unambiguous,chef,4,8
+1306,Their dentist said he was calm.,unambiguous,dentist,6,13
+1307,"After lunch, the librarian stood near the window.",ambiguous,librarian,17,26
+1308,The experienced manager said she would return later.,unambiguous,manager,16,23
+1309,"The chef, who was focused, gave a short update.",ambiguous,chef,4,8
+1310,The chef left early near the end of the day.,ambiguous,chef,4,8
+1311,"The editor, who was focused, walked in quietly.",ambiguous,editor,4,10
+1312,A architect stood near the window.,ambiguous,architect,2,11
+1313,"After answering questions, the receptionist made a decision.",ambiguous,receptionist,31,43
+1314,"After checking the schedule, the receptionist said he was available.",unambiguous,receptionist,33,45
+1315,"The duchess, who was late, paused for a moment.",unambiguous,duchess,4,11
+1316,Their architect started the meeting.,ambiguous,architect,6,15
+1317,The private steward waited outside.,unambiguous,steward,12,19
+1318,"The landlady, who was calm, sent an email.",unambiguous,landlady,4,12
+1319,The junior hero explained the issue.,unambiguous,hero,11,15
+1320,"The teacher finished the report, and she seemed confident.",unambiguous,teacher,4,11
+1321,"The driver, who was ready, returned later.",ambiguous,driver,4,10
+1322,"After closing the office, the chairwoman returned later.",unambiguous,chairwoman,30,40
+1323,"The researcher, who said she was prepared, walked in quietly.",unambiguous,researcher,4,14
+1324,"After reading the email, the driver said she was worried.",unambiguous,driver,29,35
+1325,"The mechanic sat down, and she seemed prepared.",unambiguous,mechanic,4,12
+1326,"After reading the email, the king answered quickly.",unambiguous,king,29,33
+1327,"Because the photographer was calm, the photographer sat down.",ambiguous,photographer,12,24
+1328,"The consultant, who was tired, joined the call.",ambiguous,consultant,4,14
+1329,The pharmacist said she will finish the report.,unambiguous,pharmacist,4,14
+1330,The veterinarian will call later.,ambiguous,veterinarian,4,16
+1331,The researcher left early.,ambiguous,researcher,4,14
+1332,"After reading the email, the nurse asked a question.",ambiguous,nurse,29,34
+1333,"After finishing work, the editor opened the door.",ambiguous,editor,26,32
+1334,"After reviewing the notes, the congressman opened the door.",unambiguous,congressman,31,42
+1335,"Because the driver was focused, the driver called yesterday.",ambiguous,driver,12,18
+1336,"Because the teacher was focused, the teacher walked in quietly.",ambiguous,teacher,12,19
+1337,The congresswoman smiled politely.,unambiguous,congresswoman,4,17
+1338,"The princess, who was worried, finished the report.",unambiguous,princess,4,12
+1339,The senior fireman spoke clearly.,unambiguous,fireman,11,18
+1340,"After finishing work, the saleswoman paused for a moment.",unambiguous,saleswoman,26,36
+1341,Their researcher stood near the window.,ambiguous,researcher,6,16
+1342,The assistant introduced herself politely.,unambiguous,assistant,4,13
+1343,"Because the photographer was confident, the photographer explained the issue.",ambiguous,photographer,12,24
+1344,"The librarian finished the report, and she seemed ready.",unambiguous,librarian,4,13
+1345,"The veterinarian, who said he was worried, stood near the window.",unambiguous,veterinarian,4,16
+1346,"Yesterday, the professor gave a lecture.",ambiguous,professor,15,24
+1347,"Because the driver was worried, the driver gave a short update.",ambiguous,driver,12,18
+1348,"The assistant, who said he was busy, joined the call.",unambiguous,assistant,4,13
+1349,"Because the accountant was confident, the accountant returned later.",ambiguous,accountant,12,22
+1350,The translator said she will join the meeting.,unambiguous,translator,4,14
+1351,"Before the meeting, the engineer checked his notes.",unambiguous,engineer,24,32
+1352,"After joining the call, the artist gave a lecture.",ambiguous,artist,28,34
+1353,"After answering questions, the teacher gave a lecture.",ambiguous,teacher,31,38
+1354,"The musician, who was prepared, finished the report.",ambiguous,musician,4,12
+1355,"After preparing the report, the spokeswoman walked in quietly.",unambiguous,spokeswoman,32,43
+1356,"The researcher made a decision, and he seemed busy.",unambiguous,researcher,4,14
+1357,"The editor, who was worried, sent an email.",ambiguous,editor,4,10
+1358,"After answering questions, the therapist said she was prepared.",unambiguous,therapist,31,40
+1359,The pilot will speak tomorrow.,ambiguous,pilot,4,9
+1360,"In the afternoon, the mechanic checked the schedule.",ambiguous,mechanic,22,30
+1361,Your artist said she was busy.,unambiguous,artist,5,11
+1362,The accountant said she was tired.,unambiguous,accountant,4,14
+1363,"The accountant, who was ready, asked a question.",ambiguous,accountant,4,14
+1364,The photographer smiled politely.,ambiguous,photographer,4,16
+1365,"After answering questions, the instructor said she was ready.",unambiguous,instructor,31,41
+1366,"The designer, who was worried, spoke clearly.",ambiguous,designer,4,12
+1367,"After answering questions, the professor made a decision.",ambiguous,professor,31,40
+1368,The editor introduced himself politely.,unambiguous,editor,4,10
+1369,"After finishing work, the driver said he was focused.",unambiguous,driver,26,32
+1370,A instructor explained the issue.,ambiguous,instructor,2,12
+1371,The assistant said he will finish the report.,unambiguous,assistant,4,13
+1372,"Yesterday, the landlady returned later.",unambiguous,landlady,15,23
+1373,"The landlady, who was tired, spoke clearly.",unambiguous,landlady,4,12
+1374,"The dentist, who was late, explained the issue.",ambiguous,dentist,4,11
+1375,The researcher will speak tomorrow.,ambiguous,researcher,4,14
+1376,Their accountant checked the schedule.,ambiguous,accountant,6,16
+1377,The translator answered quickly.,ambiguous,translator,4,14
+1378,The confident driver said he would return later.,unambiguous,driver,14,20
+1379,Your surgeon opened the door.,ambiguous,surgeon,5,12
+1380,"The photographer, who was tired, gave a short update.",ambiguous,photographer,4,16
+1381,"After joining the call, the firewoman asked a question.",unambiguous,firewoman,28,37
+1382,"At noon, the designer gave a lecture.",ambiguous,designer,13,21
+1383,The mechanic answered quickly.,ambiguous,mechanic,4,12
+1384,"The host, who was late, joined the call.",unambiguous,host,4,8
+1385,The designer said she will call later.,unambiguous,designer,4,12
+1386,"The hero, who was worried, sent an email.",unambiguous,hero,4,8
+1387,The junior translator finished the report.,ambiguous,translator,11,21
+1388,The senior veterinarian sat down.,ambiguous,veterinarian,11,23
+1389,"Before the meeting, the driver checked her keys.",unambiguous,driver,24,30
+1390,"After reviewing the notes, the musician smiled politely.",ambiguous,musician,31,39
+1391,"After checking the schedule, the translator said he was tired.",unambiguous,translator,33,43
+1392,"The professor, who said she was available, prepared carefully.",unambiguous,professor,4,13
+1393,The architect said she will join the meeting.,unambiguous,architect,4,13
+1394,"After lunch, the veterinarian sent an email.",ambiguous,veterinarian,17,29
+1395,"Last week, the nurse smiled politely.",ambiguous,nurse,15,20
+1396,My nurse said she was busy.,unambiguous,nurse,3,8
+1397,"Because the veterinarian was available, the veterinarian asked a question.",ambiguous,veterinarian,12,24
+1398,The pilot said he was available.,unambiguous,pilot,4,9
+1399,The manager forgot her schedule.,unambiguous,manager,4,11
+1400,"After preparing the report, the principal gave a lecture.",ambiguous,principal,32,41
+1401,The nurse opened the door near the end of the day.,ambiguous,nurse,4,9
+1402,The journalist forgot her schedule.,unambiguous,journalist,4,14
+1403,A designer stood near the window.,ambiguous,designer,2,10
+1404,The waiter gave a lecture.,unambiguous,waiter,4,10
+1405,"Because the lawyer was confident, the lawyer spoke clearly.",ambiguous,lawyer,12,18
+1406,The engineer said he will finish the report.,unambiguous,engineer,4,12
+1407,The therapist walked in quietly during the event.,ambiguous,therapist,4,13
+1408,The driver walked in quietly on Monday.,ambiguous,driver,4,10
+1409,Their instructor joined the call.,ambiguous,instructor,6,16
+1410,"The receptionist entered the room, and he seemed busy.",unambiguous,receptionist,4,16
+1411,The developer introduced himself politely.,unambiguous,developer,4,13
+1412,"Because the analyst was tired, the analyst paused for a moment.",ambiguous,analyst,12,19
+1413,"The analyst, who was available, started the meeting.",ambiguous,analyst,4,11
+1414,"After closing the office, the driver gave a short update.",ambiguous,driver,30,36
+1415,The researcher will call later.,ambiguous,researcher,4,14
+1416,The senior professor explained the issue.,ambiguous,professor,11,20
+1417,The surgeon opened the door.,ambiguous,surgeon,4,11
+1418,"The nurse, who said she was tired, asked a question.",unambiguous,nurse,4,9
+1419,"After joining the call, the therapist explained the issue.",ambiguous,therapist,28,37
+1420,"The designer, who was tired, gave a short update.",ambiguous,designer,4,12
+1421,The receptionist returned later.,ambiguous,receptionist,4,16
+1422,"After answering questions, the waiter gave a short update.",unambiguous,waiter,31,37
+1423,The chef started the meeting.,ambiguous,chef,4,8
+1424,The mechanic gave a lecture.,ambiguous,mechanic,4,12
+1425,The manager will finish the report.,ambiguous,manager,4,11
+1426,The experienced congressman waited outside.,unambiguous,congressman,16,27
+1427,"The teacher left early, and he seemed late.",unambiguous,teacher,4,11
+1428,"Before the meeting, the receptionist checked her keys.",unambiguous,receptionist,24,36
+1429,"Because the pharmacist was worried, the pharmacist checked the schedule.",ambiguous,pharmacist,12,22
+1430,"Yesterday, the duchess finished the report.",unambiguous,duchess,15,22
+1431,The scientist forgot his notes.,unambiguous,scientist,4,13
+1432,The surgeon paused for a moment.,ambiguous,surgeon,4,11
+1433,The tired artist sent an email.,ambiguous,artist,10,16
+1434,"The receptionist, who was late, joined the call.",ambiguous,receptionist,4,16
+1435,"The editor sent an email, and she seemed late.",unambiguous,editor,4,10
+1436,The busy instructor said he would return later.,unambiguous,instructor,9,19
+1437,"Because the journalist was tired, the journalist waited outside.",ambiguous,journalist,12,22
+1438,The dentist said he was prepared.,unambiguous,dentist,4,11
+1439,The local artist said she would return later.,unambiguous,artist,10,16
+1440,"The instructor, who was calm, joined the call.",ambiguous,instructor,4,14
+1441,The instructor will call later.,ambiguous,instructor,4,14
+1442,"After lunch, the lawyer called yesterday.",ambiguous,lawyer,17,23
+1443,The pharmacist entered the room.,ambiguous,pharmacist,4,14
+1444,"Last week, the emperor entered the room.",unambiguous,emperor,15,22
+1445,"The writer, who was busy, opened the door.",ambiguous,writer,4,10
+1446,The friendly professor said he would return later.,unambiguous,professor,13,22
+1447,"After closing the office, the therapist stood near the window.",ambiguous,therapist,30,39
+1448,Their translator sent an email.,ambiguous,translator,6,16
+1449,The manager left early.,ambiguous,manager,4,11
+1450,The driver will speak tomorrow.,ambiguous,driver,4,10
+1451,"The congressman, who was ready, walked in quietly.",unambiguous,congressman,4,15
+1452,"Because the doctor was busy, the doctor returned later.",ambiguous,doctor,12,18
+1453,A accountant prepared carefully.,ambiguous,accountant,2,12
+1454,"Near the end of the day, the manager spoke clearly.",ambiguous,manager,29,36
+1455,The architect answered quickly this morning.,ambiguous,architect,4,13
+1456,The experienced artist said he would return later.,unambiguous,artist,16,22
+1457,"The professor answered quickly, and he seemed focused.",unambiguous,professor,4,13
+1458,"At noon, the businesswoman opened the door.",unambiguous,businesswoman,13,26
+1459,The confident engineer checked the schedule.,ambiguous,engineer,14,22
+1460,"Because the principal was prepared, the principal gave a short update.",ambiguous,principal,12,21
+1461,"After finishing work, the veterinarian said she was worried.",unambiguous,veterinarian,26,38
+1462,"The counselor prepared carefully, and she seemed ready.",unambiguous,counselor,4,13
+1463,The architect said she will arrive soon.,unambiguous,architect,4,13
+1464,"The manager, who was prepared, gave a short update.",ambiguous,manager,4,11
+1465,The famous journalist said she would return later.,unambiguous,journalist,11,21
+1466,The assistant forgot her schedule.,unambiguous,assistant,4,13
+1467,The instructor said she was busy.,unambiguous,instructor,4,14
+1468,The tired princess entered the room.,unambiguous,princess,10,18
+1469,My lawyer said he was busy.,unambiguous,lawyer,3,9
+1470,"During the event, the pharmacist spoke clearly.",ambiguous,pharmacist,22,32
+1471,The older congresswoman gave a lecture.,unambiguous,congresswoman,10,23
+1472,"After checking the schedule, the nurse called yesterday.",ambiguous,nurse,33,38
+1473,"After closing the office, the professor entered the room.",ambiguous,professor,30,39
+1474,The coach opened the door.,ambiguous,coach,4,9
+1475,The designer paused for a moment.,ambiguous,designer,4,12
+1476,The designer waited outside.,ambiguous,designer,4,12
+1477,"Before the meeting, the duke joined the call.",unambiguous,duke,24,28
+1478,"This morning, the director checked the schedule.",ambiguous,director,18,26
+1479,"The scientist, who said she was focused, walked in quietly.",unambiguous,scientist,4,13
+1480,The visiting mechanic joined the call.,ambiguous,mechanic,13,21
+1481,"After joining the call, the artist said he was ready.",unambiguous,artist,28,34
+1482,"Yesterday, the editor smiled politely.",ambiguous,editor,15,21
+1483,The hero sat down.,unambiguous,hero,4,8
+1484,"In the afternoon, the editor prepared carefully.",ambiguous,editor,22,28
+1485,The translator waited outside yesterday.,ambiguous,translator,4,14
+1486,The senior teacher said he would return later.,unambiguous,teacher,11,18
+1487,"At noon, the stewardess opened the door.",unambiguous,stewardess,13,23
+1488,A analyst worked late.,ambiguous,analyst,2,9
+1489,Their surgeon said she was prepared.,unambiguous,surgeon,6,13
+1490,The journalist introduced herself politely.,unambiguous,journalist,4,14
+1491,The supervisor will join the meeting.,ambiguous,supervisor,4,14
+1492,The engineer introduced himself politely.,unambiguous,engineer,4,12
+1493,"After reading the email, the mechanic smiled politely.",ambiguous,mechanic,29,37
+1494,The pharmacist arrived during the event.,ambiguous,pharmacist,4,14
+1495,The local therapist said she would return later.,unambiguous,therapist,10,19
+1496,The translator will arrive soon.,ambiguous,translator,4,14
+1497,"The congressman, who was ready, waited outside.",unambiguous,congressman,4,15
+1498,"After checking the schedule, the driver explained the issue.",ambiguous,driver,33,39
+1499,"Near the end of the day, the prince worked late.",unambiguous,prince,29,35
+1500,"After lunch, the supervisor returned later.",ambiguous,supervisor,17,27
+1501,The librarian sent an email.,ambiguous,librarian,4,13
+1502,My consultant joined the call.,ambiguous,consultant,3,13
+1503,"Because the manager was late, the manager called yesterday.",ambiguous,manager,12,19
+1504,The journalist will call later.,ambiguous,journalist,4,14
+1505,Our chef answered quickly.,ambiguous,chef,4,8
+1506,The new policeman joined the call.,unambiguous,policeman,8,17
+1507,"The designer, who said she was calm, checked the schedule.",unambiguous,designer,4,12
+1508,The local veterinarian said she would return later.,unambiguous,veterinarian,10,22
+1509,The doctor checked the schedule after lunch.,ambiguous,doctor,4,10
+1510,Our coach returned later.,ambiguous,coach,4,9
+1511,"During the event, the host explained the issue.",unambiguous,host,22,26
+1512,The local firewoman finished the report.,unambiguous,firewoman,10,19
+1513,The stewardess made a decision.,unambiguous,stewardess,4,14
+1514,"The researcher, who said he was focused, paused for a moment.",unambiguous,researcher,4,14
+1515,"Before the meeting, the supervisor checked his wallet.",unambiguous,supervisor,24,34
+1516,The junior prince paused for a moment.,unambiguous,prince,11,17
+1517,"The photographer, who was calm, entered the room.",ambiguous,photographer,4,16
+1518,"Near the end of the day, the translator entered the room.",ambiguous,translator,29,39
+1519,The careful writer said he would return later.,unambiguous,writer,12,18
+1520,"The director, who said he was confident, opened the door.",unambiguous,director,4,12
+1521,A editor started the meeting.,ambiguous,editor,2,8
+1522,The musician said he will speak tomorrow.,unambiguous,musician,4,12
+1523,The nurse will speak tomorrow.,ambiguous,nurse,4,9
+1524,The senior musician gave a lecture.,ambiguous,musician,11,19
+1525,"After checking the schedule, the dentist smiled politely.",ambiguous,dentist,33,40
+1526,"The veterinarian, who said she was tired, paused for a moment.",unambiguous,veterinarian,4,16
+1527,The director said she was prepared.,unambiguous,director,4,12
+1528,"The counselor made a decision, and she seemed focused.",unambiguous,counselor,4,13
+1529,The local scientist asked a question.,ambiguous,scientist,10,19
+1530,The nurse walked in quietly.,ambiguous,nurse,4,9
+1531,"The veterinarian, who was prepared, gave a short update.",ambiguous,veterinarian,4,16
+1532,"Because the translator was available, the translator checked the schedule.",ambiguous,translator,12,22
+1533,Their chef made a decision.,ambiguous,chef,6,10
+1534,"After preparing the report, the artist finished the report.",ambiguous,artist,32,38
+1535,The young duchess arrived.,unambiguous,duchess,10,17
+1536,"After reviewing the notes, the veterinarian made a decision.",ambiguous,veterinarian,31,43
+1537,"In the afternoon, the driver paused for a moment.",ambiguous,driver,22,28
+1538,The quiet chef said he would return later.,unambiguous,chef,10,14
+1539,The architect said he will join the meeting.,unambiguous,architect,4,13
+1540,"Before the meeting, the photographer checked his bag.",unambiguous,photographer,24,36
+1541,My dentist walked in quietly.,ambiguous,dentist,3,10
+1542,"After lunch, the researcher made a decision.",ambiguous,researcher,17,27
+1543,"Before the meeting, the counselor checked her wallet.",unambiguous,counselor,24,33
+1544,My analyst said she was confident.,unambiguous,analyst,3,10
+1545,The duchess paused for a moment.,unambiguous,duchess,4,11
+1546,The teacher started the meeting.,ambiguous,teacher,4,11
+1547,"Because the accountant was focused, the accountant walked in quietly.",ambiguous,accountant,12,22
+1548,The principal said she will join the meeting.,unambiguous,principal,4,13
+1549,"After answering questions, the teacher made a decision.",ambiguous,teacher,31,38
+1550,"The landlord, who was focused, made a decision.",unambiguous,landlord,4,12
+1551,The doctor will arrive soon.,ambiguous,doctor,4,10
+1552,"The driver, who was worried, entered the room.",ambiguous,driver,4,10
+1553,The mechanic stood near the window.,ambiguous,mechanic,4,12
+1554,"The mechanic spoke clearly, and she seemed confident.",unambiguous,mechanic,4,12
+1555,The instructor introduced herself politely.,unambiguous,instructor,4,14
+1556,"The veterinarian, who was calm, paused for a moment.",ambiguous,veterinarian,4,16
+1557,The editor smiled politely.,ambiguous,editor,4,10
+1558,"The heroine, who was late, stood near the window.",unambiguous,heroine,4,11
+1559,Your analyst called yesterday.,ambiguous,analyst,5,12
+1560,"This morning, the nurse made a decision.",ambiguous,nurse,18,23
+1561,My dentist said he was worried.,unambiguous,dentist,3,10
+1562,"This morning, the counselor gave a lecture.",ambiguous,counselor,18,27
+1563,The lawyer said she was ready.,unambiguous,lawyer,4,10
+1564,The developer joined the call.,ambiguous,developer,4,13
+1565,The senior lawyer said he would return later.,unambiguous,lawyer,11,17
+1566,The junior pharmacist said she would return later.,unambiguous,pharmacist,11,21
+1567,"After joining the call, the director gave a lecture.",ambiguous,director,28,36
+1568,Our nurse asked a question.,ambiguous,nurse,4,9
+1569,"This morning, the actor made a decision.",unambiguous,actor,18,23
+1570,"After preparing the report, the surgeon said she was prepared.",unambiguous,surgeon,32,39
+1571,Our teacher gave a short update.,ambiguous,teacher,4,11
+1572,The supervisor sat down.,ambiguous,supervisor,4,14
+1573,"On Monday, the manager worked late.",ambiguous,manager,15,22
+1574,"The duchess, who was worried, finished the report.",unambiguous,duchess,4,11
+1575,"During the event, the pilot entered the room.",ambiguous,pilot,22,27
+1576,The hero called yesterday.,unambiguous,hero,4,8
+1577,The senior analyst smiled politely.,ambiguous,analyst,11,18
+1578,"The consultant, who was focused, stood near the window.",ambiguous,consultant,4,14
+1579,"The professor, who was prepared, joined the call.",ambiguous,professor,4,13
+1580,"Because the engineer was worried, the engineer sent an email.",ambiguous,engineer,12,20
+1581,The instructor opened the door.,ambiguous,instructor,4,14
+1582,The scientist stood near the window.,ambiguous,scientist,4,13
+1583,Our nurse said he was late.,unambiguous,nurse,4,9
+1584,The director said she was tired.,unambiguous,director,4,12
+1585,The coach sent an email yesterday.,ambiguous,coach,4,9
+1586,"After checking the schedule, the scientist returned later.",ambiguous,scientist,33,42
+1587,The coach will speak tomorrow.,ambiguous,coach,4,9
+1588,"The principal called yesterday, and she seemed tired.",unambiguous,principal,4,13
+1589,"After preparing the report, the lawyer said he was calm.",unambiguous,lawyer,32,38
+1590,"This morning, the duchess started the meeting.",unambiguous,duchess,18,25
+1591,Your coach opened the door.,ambiguous,coach,5,10
+1592,The hostess opened the door.,unambiguous,hostess,4,11
+1593,The junior duchess explained the issue.,unambiguous,duchess,11,18
+1594,"Because the translator was worried, the translator entered the room.",ambiguous,translator,12,22
+1595,"During the event, the pilot sat down.",ambiguous,pilot,22,27
+1596,The tired businessman joined the call.,unambiguous,businessman,10,21
+1597,"Before the meeting, the researcher checked his keys.",unambiguous,researcher,24,34
+1598,The careful firewoman stood near the window.,unambiguous,firewoman,12,21
+1599,"The heroine, who was available, stood near the window.",unambiguous,heroine,4,11
+1600,A librarian prepared carefully.,ambiguous,librarian,2,11
+1601,"Because the lawyer was ready, the lawyer prepared carefully.",ambiguous,lawyer,12,18
+1602,"After reviewing the notes, the pilot said he was calm.",unambiguous,pilot,31,36
+1603,Your nurse said he was worried.,unambiguous,nurse,5,10
+1604,The dentist left early.,ambiguous,dentist,4,11
+1605,"Because the coach was available, the coach sat down.",ambiguous,coach,12,17
+1606,"After joining the call, the policeman worked late.",unambiguous,policeman,28,37
+1607,"The principal, who was busy, asked a question.",ambiguous,principal,4,13
+1608,"Because the pilot was ready, the pilot gave a lecture.",ambiguous,pilot,12,17
+1609,Our scientist said she was focused.,unambiguous,scientist,4,13
+1610,The counselor will call later.,ambiguous,counselor,4,13
+1611,The veterinarian asked a question this morning.,ambiguous,veterinarian,4,16
+1612,The engineer will finish the report.,ambiguous,engineer,4,12
+1613,"The developer waited outside, and she seemed available.",unambiguous,developer,4,13
+1614,The consultant said he was prepared.,unambiguous,consultant,4,14
+1615,The coach waited outside this morning.,ambiguous,coach,4,9
+1616,The experienced policeman gave a lecture.,unambiguous,policeman,16,25
+1617,The architect said he will speak tomorrow.,unambiguous,architect,4,13
+1618,The assistant said he will join the meeting.,unambiguous,assistant,4,13
+1619,"Before the meeting, the photographer checked his badge.",unambiguous,photographer,24,36
+1620,"Before the meeting, the mechanic checked his schedule.",unambiguous,mechanic,24,32
+1621,"Yesterday, the director started the meeting.",ambiguous,director,15,23
+1622,The mechanic arrived during the event.,ambiguous,mechanic,4,12
+1623,"After checking the schedule, the therapist spoke clearly.",ambiguous,therapist,33,42
+1624,The consultant will arrive soon.,ambiguous,consultant,4,14
+1625,"Last week, the translator returned later.",ambiguous,translator,15,25
+1626,"Before the meeting, the consultant checked her schedule.",unambiguous,consultant,24,34
+1627,"The dentist explained the issue, and she seemed worried.",unambiguous,dentist,4,11
+1628,A scientist sat down.,ambiguous,scientist,2,11
+1629,"After preparing the report, the journalist paused for a moment.",ambiguous,journalist,32,42
+1630,The photographer will finish the report.,ambiguous,photographer,4,16
+1631,"The actress, who was available, called yesterday.",unambiguous,actress,4,11
+1632,"After joining the call, the principal said he was busy.",unambiguous,principal,28,37
+1633,"During the event, the scientist checked the schedule.",ambiguous,scientist,22,31
+1634,The developer said she will finish the report.,unambiguous,developer,4,13
+1635,The dentist will join the meeting.,ambiguous,dentist,4,11
+1636,The chairwoman entered the room.,unambiguous,chairwoman,4,14
+1637,"The editor, who said he was tired, left early.",unambiguous,editor,4,10
+1638,"The editor, who was tired, answered quickly.",ambiguous,editor,4,10
+1639,The lawyer left early.,ambiguous,lawyer,4,10
+1640,The engineer will arrive soon.,ambiguous,engineer,4,12
+1641,"In the afternoon, the steward made a decision.",unambiguous,steward,22,29
+1642,"Because the driver was worried, the driver opened the door.",ambiguous,driver,12,18
+1643,A lawyer smiled politely.,ambiguous,lawyer,2,8
+1644,"During the event, the empress prepared carefully.",unambiguous,empress,22,29
+1645,"After reading the email, the chef checked the schedule.",ambiguous,chef,29,33
+1646,"Before the meeting, the librarian checked her wallet.",unambiguous,librarian,24,33
+1647,A manager walked in quietly.,ambiguous,manager,2,9
+1648,"The businesswoman, who was busy, prepared carefully.",unambiguous,businesswoman,4,17
+1649,"The developer, who was late, finished the report.",ambiguous,developer,4,13
+1650,"This morning, the instructor started the meeting.",ambiguous,instructor,18,28
+1651,The new manager said he would return later.,unambiguous,manager,8,15
+1652,"Before the meeting, the writer checked her schedule.",unambiguous,writer,24,30
+1653,Your scientist said he was confident.,unambiguous,scientist,5,14
+1654,The translator joined the call.,ambiguous,translator,4,14
+1655,"Because the supervisor was ready, the supervisor worked late.",ambiguous,supervisor,12,22
+1656,"This morning, the driver made a decision.",ambiguous,driver,18,24
+1657,"Before the meeting, the librarian checked his schedule.",unambiguous,librarian,24,33
+1658,"The writer, who was late, worked late.",ambiguous,writer,4,10
+1659,Our editor arrived.,ambiguous,editor,4,10
+1660,The musician forgot her notebook.,unambiguous,musician,4,12
+1661,The dentist said she was available.,unambiguous,dentist,4,11
+1662,Our librarian said she was available.,unambiguous,librarian,4,13
+1663,"The princess, who was busy, opened the door.",unambiguous,princess,4,12
+1664,"The king, who was late, arrived.",unambiguous,king,4,8
+1665,"Because the instructor was focused, the instructor walked in quietly.",ambiguous,instructor,12,22
+1666,"Before the meeting, the driver joined the call.",ambiguous,driver,24,30
+1667,"Last week, the stewardess joined the call.",unambiguous,stewardess,15,25
+1668,The director forgot her laptop.,unambiguous,director,4,12
+1669,"After reading the email, the veterinarian sat down.",ambiguous,veterinarian,29,41
+1670,Your assistant said she was calm.,unambiguous,assistant,5,14
+1671,The private steward sent an email.,unambiguous,steward,12,19
+1672,The older policeman stood near the window.,unambiguous,policeman,10,19
+1673,Your coach waited outside.,ambiguous,coach,5,10
+1674,"The librarian, who said she was prepared, waited outside.",unambiguous,librarian,4,13
+1675,The therapist forgot his schedule.,unambiguous,therapist,4,13
+1676,"The veterinarian, who said she was worried, gave a short update.",unambiguous,veterinarian,4,16
+1677,The professor will join the meeting.,ambiguous,professor,4,13
+1678,"At noon, the manager waited outside.",ambiguous,manager,13,20
+1679,Their photographer entered the room.,ambiguous,photographer,6,18
+1680,The professor will speak tomorrow.,ambiguous,professor,4,13
+1681,My mechanic said he was prepared.,unambiguous,mechanic,3,11
+1682,"After answering questions, the researcher walked in quietly.",ambiguous,researcher,31,41
+1683,"The mechanic, who said he was late, asked a question.",unambiguous,mechanic,4,12
+1684,The tired translator said she would return later.,unambiguous,translator,10,20
+1685,"After finishing work, the professor smiled politely.",ambiguous,professor,26,35
+1686,The chef joined the call during the event.,ambiguous,chef,4,8
+1687,"After reviewing the notes, the hostess spoke clearly.",unambiguous,hostess,31,38
+1688,Our architect said she was ready.,unambiguous,architect,4,13
+1689,"After lunch, the heroine arrived.",unambiguous,heroine,17,24
+1690,"Last week, the host finished the report.",unambiguous,host,15,19
+1691,"After checking the schedule, the salesman stood near the window.",unambiguous,salesman,33,41
+1692,The professor returned later.,ambiguous,professor,4,13
+1693,"Because the writer was calm, the writer paused for a moment.",ambiguous,writer,12,18
+1694,"Because the musician was calm, the musician called yesterday.",ambiguous,musician,12,20
+1695,"The doctor returned later, and he seemed focused.",unambiguous,doctor,4,10
+1696,The tired dentist stood near the window.,ambiguous,dentist,10,17
+1697,The surgeon will join the meeting.,ambiguous,surgeon,4,11
+1698,The older architect joined the call.,ambiguous,architect,10,19
+1699,The nurse said she was confident.,unambiguous,nurse,4,9
+1700,The local businessman smiled politely.,unambiguous,businessman,10,21
+1701,"The salesman, who was tired, smiled politely.",unambiguous,salesman,4,12
+1702,The writer said he was busy.,unambiguous,writer,4,10
+1703,A professor made a decision.,ambiguous,professor,2,11
+1704,A librarian stood near the window.,ambiguous,librarian,2,11
+1705,The private writer said she would return later.,unambiguous,writer,12,18
+1706,"After checking the schedule, the doctor said he was confident.",unambiguous,doctor,33,39
+1707,My doctor said he was ready.,unambiguous,doctor,3,9
+1708,The librarian said she was tired.,unambiguous,librarian,4,13
+1709,The photographer will join the meeting.,ambiguous,photographer,4,16
+1710,"After lunch, the counselor finished the report.",ambiguous,counselor,17,26
+1711,The instructor left early.,ambiguous,instructor,4,14
+1712,"After closing the office, the accountant waited outside.",ambiguous,accountant,30,40
+1713,"After reviewing the notes, the policewoman gave a lecture.",unambiguous,policewoman,31,42
+1714,"At noon, the therapist prepared carefully.",ambiguous,therapist,13,22
+1715,The tired coach asked a question.,ambiguous,coach,10,15
+1716,Our librarian paused for a moment.,ambiguous,librarian,4,13
+1717,"The pilot joined the call, and he seemed focused.",unambiguous,pilot,4,9
+1718,The driver forgot his coat.,unambiguous,driver,4,10
+1719,"After preparing the report, the designer said he was ready.",unambiguous,designer,32,40
+1720,The new accountant said she would return later.,unambiguous,accountant,8,18
+1721,"Near the end of the day, the manager arrived.",ambiguous,manager,29,36
+1722,"The consultant, who was calm, called yesterday.",ambiguous,consultant,4,14
+1723,"After reading the email, the developer said she was tired.",unambiguous,developer,29,38
+1724,Their architect said she was calm.,unambiguous,architect,6,15
+1725,"Last week, the nurse spoke clearly.",ambiguous,nurse,15,20
+1726,"The policewoman, who was available, called yesterday.",unambiguous,policewoman,4,15
+1727,Our teacher said she was available.,unambiguous,teacher,4,11
+1728,"The driver, who said she was focused, stood near the window.",unambiguous,driver,4,10
+1729,The mechanic waited outside before the meeting.,ambiguous,mechanic,4,12
+1730,"The manager, who was available, spoke clearly.",ambiguous,manager,4,11
+1731,The dentist paused for a moment.,ambiguous,dentist,4,11
+1732,"After checking the schedule, the chairman asked a question.",unambiguous,chairman,33,41
+1733,"Before the meeting, the coach checked his phone.",unambiguous,coach,24,29
+1734,The young chairwoman entered the room.,unambiguous,chairwoman,10,20
+1735,"After preparing the report, the receptionist answered quickly.",ambiguous,receptionist,32,44
+1736,"After reviewing the notes, the businesswoman sat down.",unambiguous,businesswoman,31,44
+1737,"Because the doctor was confident, the doctor returned later.",ambiguous,doctor,12,18
+1738,"After joining the call, the pilot walked in quietly.",ambiguous,pilot,28,33
+1739,"This morning, the saleswoman gave a lecture.",unambiguous,saleswoman,18,28
+1740,The receptionist said he will finish the report.,unambiguous,receptionist,4,16
+1741,"The librarian, who was available, sat down.",ambiguous,librarian,4,13
+1742,"After closing the office, the writer left early.",ambiguous,writer,30,36
+1743,"The congresswoman, who was prepared, started the meeting.",unambiguous,congresswoman,4,17
+1744,The chef called yesterday.,ambiguous,chef,4,8
+1745,"This morning, the writer arrived.",ambiguous,writer,18,24
+1746,The manager sent an email after lunch.,ambiguous,manager,4,11
+1747,"After reviewing the notes, the architect said he was late.",unambiguous,architect,31,40
+1748,"During the event, the hostess smiled politely.",unambiguous,hostess,22,29
+1749,"The developer, who said she was calm, gave a lecture.",unambiguous,developer,4,13
+1750,"After preparing the report, the analyst started the meeting.",ambiguous,analyst,32,39
+1751,"The principal stood near the window, and she seemed focused.",unambiguous,principal,4,13
+1752,"After answering questions, the receptionist paused for a moment.",ambiguous,receptionist,31,43
+1753,The analyst entered the room.,ambiguous,analyst,4,11
+1754,The hostess sat down.,unambiguous,hostess,4,11
+1755,"The spokesman, who was worried, entered the room.",unambiguous,spokesman,4,13
+1756,The writer introduced himself politely.,unambiguous,writer,4,10
+1757,"Because the pharmacist was tired, the pharmacist opened the door.",ambiguous,pharmacist,12,22
+1758,Their pharmacist gave a short update.,ambiguous,pharmacist,6,16
+1759,The junior consultant smiled politely.,ambiguous,consultant,11,21
+1760,"The instructor, who was busy, spoke clearly.",ambiguous,instructor,4,14
+1761,"Because the nurse was busy, the nurse opened the door.",ambiguous,nurse,12,17
+1762,"Because the veterinarian was worried, the veterinarian spoke clearly.",ambiguous,veterinarian,12,24
+1763,"After checking the schedule, the developer explained the issue.",ambiguous,developer,33,42
+1764,"Before the meeting, the pilot checked his badge.",unambiguous,pilot,24,29
+1765,The supervisor introduced herself politely.,unambiguous,supervisor,4,14
+1766,"After finishing work, the instructor entered the room.",ambiguous,instructor,26,36
+1767,The veterinarian sent an email on Monday.,ambiguous,veterinarian,4,16
+1768,"At noon, the congressman worked late.",unambiguous,congressman,13,24
+1769,The local counselor entered the room.,ambiguous,counselor,10,19
+1770,The senior principal sat down.,ambiguous,principal,11,20
+1771,The older empress finished the report.,unambiguous,empress,10,17
+1772,"Because the artist was late, the artist answered quickly.",ambiguous,artist,12,18
+1773,"During the event, the emperor asked a question.",unambiguous,emperor,22,29
+1774,"After joining the call, the lawyer joined the call.",ambiguous,lawyer,28,34
+1775,"Because the chef was focused, the chef spoke clearly.",ambiguous,chef,12,16
+1776,"After answering questions, the chairwoman called yesterday.",unambiguous,chairwoman,31,41
+1777,"Yesterday, the policewoman explained the issue.",unambiguous,policewoman,15,26
+1778,"After closing the office, the designer said she was calm.",unambiguous,designer,30,38
+1779,The consultant waited outside in the afternoon.,ambiguous,consultant,4,14
+1780,The older doctor checked the schedule.,ambiguous,doctor,10,16
+1781,"After reading the email, the duchess entered the room.",unambiguous,duchess,29,36
+1782,"The prince, who was calm, paused for a moment.",unambiguous,prince,4,10
+1783,Our surgeon said she was late.,unambiguous,surgeon,4,11
+1784,"The driver, who said she was tired, prepared carefully.",unambiguous,driver,4,10
+1785,Your analyst worked late.,ambiguous,analyst,5,12
+1786,The chairwoman sat down.,unambiguous,chairwoman,4,14
+1787,The translator started the meeting at noon.,ambiguous,translator,4,14
+1788,"Last week, the analyst gave a short update.",ambiguous,analyst,15,22
+1789,The friendly manager answered quickly.,ambiguous,manager,13,20
+1790,The writer forgot her schedule.,unambiguous,writer,4,10
+1791,"At noon, the pilot paused for a moment.",ambiguous,pilot,13,18
+1792,A developer opened the door.,ambiguous,developer,2,11
+1793,The editor said she will join the meeting.,unambiguous,editor,4,10
+1794,"Before the meeting, the accountant checked her badge.",unambiguous,accountant,24,34
+1795,The pharmacist will call later.,ambiguous,pharmacist,4,14
+1796,The local landlady made a decision.,unambiguous,landlady,10,18
+1797,The assistant sat down last week.,ambiguous,assistant,4,13
+1798,"The chairman, who was ready, spoke clearly.",unambiguous,chairman,4,12
+1799,The veterinarian said she was confident.,unambiguous,veterinarian,4,16
+1800,The artist said he was confident.,unambiguous,artist,4,10
+1801,"Yesterday, the landlord smiled politely.",unambiguous,landlord,15,23
+1802,A doctor made a decision.,ambiguous,doctor,2,8
+1803,"After preparing the report, the director said he was tired.",unambiguous,director,32,40
+1804,My researcher said she was prepared.,unambiguous,researcher,3,13
+1805,"Because the librarian was tired, the librarian prepared carefully.",ambiguous,librarian,12,21
+1806,The pilot introduced herself politely.,unambiguous,pilot,4,9
+1807,"Because the photographer was busy, the photographer left early.",ambiguous,photographer,12,24
+1808,"During the event, the dentist paused for a moment.",ambiguous,dentist,22,29
+1809,"The journalist, who was late, entered the room.",ambiguous,journalist,4,14
+1810,The instructor spoke clearly on Monday.,ambiguous,instructor,4,14
+1811,"The waitress, who was late, entered the room.",unambiguous,waitress,4,12
+1812,The scientist said he will arrive soon.,unambiguous,scientist,4,13
+1813,"After reviewing the notes, the mechanic sent an email.",ambiguous,mechanic,31,39
+1814,The nurse gave a lecture on Monday.,ambiguous,nurse,4,9
+1815,"Because the pharmacist was confident, the pharmacist explained the issue.",ambiguous,pharmacist,12,22
+1816,"The veterinarian walked in quietly, and she seemed late.",unambiguous,veterinarian,4,16
+1817,Your manager opened the door.,ambiguous,manager,5,12
+1818,"During the event, the librarian checked the schedule.",ambiguous,librarian,22,31
+1819,"The steward, who was worried, left early.",unambiguous,steward,4,11
+1820,"This morning, the fireman entered the room.",unambiguous,fireman,18,25
+1821,The journalist smiled politely.,ambiguous,journalist,4,14
+1822,The manager introduced himself politely.,unambiguous,manager,4,11
+1823,"After lunch, the manager waited outside.",ambiguous,manager,17,24
+1824,"After reviewing the notes, the surgeon said he was confident.",unambiguous,surgeon,31,38
+1825,The accountant said she was available.,unambiguous,accountant,4,14
+1826,"After answering questions, the assistant said she was confident.",unambiguous,assistant,31,40
+1827,"In the afternoon, the nurse walked in quietly.",ambiguous,nurse,22,27
+1828,The coach said he will finish the report.,unambiguous,coach,4,9
+1829,The older steward stood near the window.,unambiguous,steward,10,17
+1830,The artist walked in quietly.,ambiguous,artist,4,10
+1831,"The actor, who was worried, stood near the window.",unambiguous,actor,4,9
+1832,The surgeon made a decision on Monday.,ambiguous,surgeon,4,11
+1833,"Near the end of the day, the duke sat down.",unambiguous,duke,29,33
+1834,"The scientist answered quickly, and he seemed available.",unambiguous,scientist,4,13
+1835,The quiet driver started the meeting.,ambiguous,driver,10,16
+1836,The manager will arrive soon.,ambiguous,manager,4,11
+1837,The scientist said she will arrive soon.,unambiguous,scientist,4,13
+1838,"Near the end of the day, the designer explained the issue.",ambiguous,designer,29,37
+1839,The experienced architect started the meeting.,ambiguous,architect,16,25
+1840,The principal introduced herself politely.,unambiguous,principal,4,13
+1841,"The director, who was available, stood near the window.",ambiguous,director,4,12
+1842,The therapist entered the room.,ambiguous,therapist,4,13
+1843,The firewoman spoke clearly.,unambiguous,firewoman,4,13
+1844,"After answering questions, the engineer said she was late.",unambiguous,engineer,31,39
+1845,The director forgot his laptop.,unambiguous,director,4,12
+1846,The coach forgot her notebook.,unambiguous,coach,4,9
+1847,The therapist opened the door during the event.,ambiguous,therapist,4,13
+1848,The congresswoman made a decision.,unambiguous,congresswoman,4,17
+1849,"Last week, the emperor joined the call.",unambiguous,emperor,15,22
+1850,Your journalist paused for a moment.,ambiguous,journalist,5,15
+1851,A photographer paused for a moment.,ambiguous,photographer,2,14
+1852,The surgeon arrived.,ambiguous,surgeon,4,11
+1853,The young instructor called yesterday.,ambiguous,instructor,10,20
+1854,The driver said he will join the meeting.,unambiguous,driver,4,10
+1855,"Before the meeting, the coach checked his schedule.",unambiguous,coach,24,29
+1856,"Near the end of the day, the steward explained the issue.",unambiguous,steward,29,36
+1857,The local princess asked a question.,unambiguous,princess,10,18
+1858,The lawyer entered the room.,ambiguous,lawyer,4,10
+1859,The architect entered the room.,ambiguous,architect,4,13
+1860,The mechanic forgot his coat.,unambiguous,mechanic,4,12
+1861,The musician forgot his phone.,unambiguous,musician,4,12
+1862,A coach explained the issue.,ambiguous,coach,2,7
+1863,Our accountant said she was confident.,unambiguous,accountant,4,14
+1864,The junior designer opened the door.,ambiguous,designer,11,19
+1865,Your director entered the room.,ambiguous,director,5,13
+1866,"During the event, the director joined the call.",ambiguous,director,22,30
+1867,The private surgeon left early.,ambiguous,surgeon,12,19
+1868,The waiter answered quickly.,unambiguous,waiter,4,10
+1869,The surgeon prepared carefully.,ambiguous,surgeon,4,11
+1870,"The designer, who said she was late, called yesterday.",unambiguous,designer,4,12
+1871,The driver sent an email.,ambiguous,driver,4,10
+1872,The accountant forgot his notebook.,unambiguous,accountant,4,14
+1873,The junior lawyer said he would return later.,unambiguous,lawyer,11,17
+1874,"After preparing the report, the editor gave a lecture.",ambiguous,editor,32,38
+1875,"Because the designer was ready, the designer sat down.",ambiguous,designer,12,20
+1876,"The analyst, who was confident, explained the issue.",ambiguous,analyst,4,11
+1877,My receptionist said she was ready.,unambiguous,receptionist,3,15
+1878,The older photographer said he would return later.,unambiguous,photographer,10,22
+1879,The older researcher said she would return later.,unambiguous,researcher,10,20
+1880,The junior veterinarian opened the door.,ambiguous,veterinarian,11,23
+1881,The translator checked the schedule.,ambiguous,translator,4,14
+1882,My accountant made a decision.,ambiguous,accountant,3,13
+1883,The developer will call later.,ambiguous,developer,4,13
+1884,"The manager, who said he was ready, gave a short update.",unambiguous,manager,4,11
+1885,The quiet analyst spoke clearly.,ambiguous,analyst,10,17
+1886,"After reading the email, the nurse started the meeting.",ambiguous,nurse,29,34
+1887,"The coach waited outside, and she seemed worried.",unambiguous,coach,4,9
+1888,Their scientist checked the schedule.,ambiguous,scientist,6,15
+1889,The surgeon will finish the report.,ambiguous,surgeon,4,11
+1890,A nurse checked the schedule.,ambiguous,nurse,2,7
+1891,"During the event, the designer made a decision.",ambiguous,designer,22,30
+1892,The counselor introduced herself politely.,unambiguous,counselor,4,13
+1893,"Before the meeting, the analyst checked her wallet.",unambiguous,analyst,24,31
+1894,My researcher said he was available.,unambiguous,researcher,3,13
+1895,"Because the manager was focused, the manager sat down.",ambiguous,manager,12,19
+1896,"After joining the call, the emperor opened the door.",unambiguous,emperor,28,35
+1897,The photographer said he will call later.,unambiguous,photographer,4,16
+1898,The visiting architect paused for a moment.,ambiguous,architect,13,22
+1899,"The pharmacist returned later, and she seemed confident.",unambiguous,pharmacist,4,14
+1900,The journalist finished the report near the end of the day.,ambiguous,journalist,4,14
+1901,"The analyst started the meeting, and he seemed worried.",unambiguous,analyst,4,11
+1902,The waitress returned later.,unambiguous,waitress,4,12
+1903,"Near the end of the day, the therapist answered quickly.",ambiguous,therapist,29,38
+1904,"The supervisor, who was prepared, called yesterday.",ambiguous,supervisor,4,14
+1905,"This morning, the translator explained the issue.",ambiguous,translator,18,28
+1906,The instructor sat down after lunch.,ambiguous,instructor,4,14
+1907,The spokeswoman returned later.,unambiguous,spokeswoman,4,15
+1908,The journalist said he will finish the report.,unambiguous,journalist,4,14
+1909,The writer said she will speak tomorrow.,unambiguous,writer,4,10
+1910,The translator will join the meeting.,ambiguous,translator,4,14
+1911,"The emperor, who was calm, checked the schedule.",unambiguous,emperor,4,11
+1912,The translator stood near the window before the meeting.,ambiguous,translator,4,14
+1913,The consultant said he was busy.,unambiguous,consultant,4,14
+1914,The researcher paused for a moment.,ambiguous,researcher,4,14
+1915,"The analyst, who was ready, worked late.",ambiguous,analyst,4,11
+1916,"After closing the office, the professor sat down.",ambiguous,professor,30,39
+1917,The librarian forgot her keys.,unambiguous,librarian,4,13
+1918,The instructor left early last week.,ambiguous,instructor,4,14
+1919,My receptionist worked late.,ambiguous,receptionist,3,15
+1920,"The writer, who said he was late, joined the call.",unambiguous,writer,4,10
+1921,"The landlady, who was busy, finished the report.",unambiguous,landlady,4,12
+1922,"After preparing the report, the veterinarian spoke clearly.",ambiguous,veterinarian,32,44
+1923,The scientist explained the issue.,ambiguous,scientist,4,13
+1924,The nurse worked late yesterday.,ambiguous,nurse,4,9
+1925,"The driver, who was calm, finished the report.",ambiguous,driver,4,10
+1926,The journalist worked late in the afternoon.,ambiguous,journalist,4,14
+1927,Their journalist said she was available.,unambiguous,journalist,6,16
+1928,The queen walked in quietly.,unambiguous,queen,4,9
+1929,The consultant explained the issue on Monday.,ambiguous,consultant,4,14
+1930,My instructor said she was confident.,unambiguous,instructor,3,13
+1931,"After finishing work, the firewoman paused for a moment.",unambiguous,firewoman,26,35
+1932,"The dentist smiled politely, and she seemed prepared.",unambiguous,dentist,4,11
+1933,"The king, who was busy, waited outside.",unambiguous,king,4,8
+1934,The assistant said he will call later.,unambiguous,assistant,4,13
+1935,"Last week, the landlord started the meeting.",unambiguous,landlord,15,23
+1936,"After joining the call, the musician finished the report.",ambiguous,musician,28,36
+1937,The counselor spoke clearly.,ambiguous,counselor,4,13
+1938,"After closing the office, the duchess asked a question.",unambiguous,duchess,30,37
+1939,Our photographer said she was tired.,unambiguous,photographer,4,16
+1940,"Before the meeting, the mechanic started the meeting.",ambiguous,mechanic,24,32
+1941,The tired developer gave a short update.,ambiguous,developer,10,19
+1942,"After checking the schedule, the hostess smiled politely.",unambiguous,hostess,33,40
+1943,"Yesterday, the firewoman paused for a moment.",unambiguous,firewoman,15,24
+1944,"Before the meeting, the researcher checked his notes.",unambiguous,researcher,24,34
+1945,The engineer will call later.,ambiguous,engineer,4,12
+1946,The therapist said she was worried.,unambiguous,therapist,4,13
+1947,"After closing the office, the nurse gave a short update.",ambiguous,nurse,30,35
+1948,A coach joined the call.,ambiguous,coach,2,7
+1949,The host arrived.,unambiguous,host,4,8
+1950,The instructor forgot her keys.,unambiguous,instructor,4,14
+1951,The mechanic will finish the report.,ambiguous,mechanic,4,12
+1952,"The king, who was worried, prepared carefully.",unambiguous,king,4,8
+1953,The architect made a decision near the end of the day.,ambiguous,architect,4,13
+1954,"After joining the call, the fireman walked in quietly.",unambiguous,fireman,28,35
+1955,My principal said she was prepared.,unambiguous,principal,3,12
+1956,The consultant said he was confident.,unambiguous,consultant,4,14
+1957,"After reviewing the notes, the pharmacist worked late.",ambiguous,pharmacist,31,41
+1958,The architect forgot her notebook.,unambiguous,architect,4,13
+1959,The senior receptionist started the meeting.,ambiguous,receptionist,11,23
+1960,The dentist introduced herself politely.,unambiguous,dentist,4,11
+1961,The artist started the meeting yesterday.,ambiguous,artist,4,10
+1962,"Because the assistant was available, the assistant smiled politely.",ambiguous,assistant,12,21
+1963,The young photographer said he would return later.,unambiguous,photographer,10,22
+1964,"Because the scientist was prepared, the scientist stood near the window.",ambiguous,scientist,12,21
+1965,The quiet congresswoman prepared carefully.,unambiguous,congresswoman,10,23
+1966,"The manager, who said she was tired, opened the door.",unambiguous,manager,4,11
+1967,Your photographer joined the call.,ambiguous,photographer,5,17
+1968,"At noon, the manager opened the door.",ambiguous,manager,13,20
+1969,"After lunch, the chef smiled politely.",ambiguous,chef,17,21
+1970,The veterinarian will finish the report.,ambiguous,veterinarian,4,16
+1971,"The king, who was available, finished the report.",unambiguous,king,4,8
+1972,The journalist forgot her wallet.,unambiguous,journalist,4,14
+1973,"At noon, the assistant gave a lecture.",ambiguous,assistant,13,22
+1974,Your coach walked in quietly.,ambiguous,coach,5,10
+1975,The editor said he will call later.,unambiguous,editor,4,10
+1976,The new manager explained the issue.,ambiguous,manager,8,15
+1977,"Because the consultant was prepared, the consultant prepared carefully.",ambiguous,consultant,12,22
+1978,The empress opened the door.,unambiguous,empress,4,11
+1979,The architect forgot her keys.,unambiguous,architect,4,13
+1980,A analyst left early.,ambiguous,analyst,2,9
+1981,A manager started the meeting.,ambiguous,manager,2,9
+1982,"After reading the email, the waitress spoke clearly.",unambiguous,waitress,29,37
+1983,The designer said he was calm.,unambiguous,designer,4,12
+1984,The veterinarian finished the report.,ambiguous,veterinarian,4,16
+1985,The young developer said she would return later.,unambiguous,developer,10,19
+1986,The assistant called yesterday.,ambiguous,assistant,4,13
+1987,The confident landlady paused for a moment.,unambiguous,landlady,14,22
+1988,The director waited outside.,ambiguous,director,4,12
+1989,"After preparing the report, the driver said he was tired.",unambiguous,driver,32,38
+1990,"After reviewing the notes, the doctor said she was worried.",unambiguous,doctor,31,37
+1991,"After joining the call, the professor said she was late.",unambiguous,professor,28,37
+1992,"The editor waited outside, and he seemed late.",unambiguous,editor,4,10
+1993,The photographer introduced himself politely.,unambiguous,photographer,4,16
+1994,"After preparing the report, the assistant gave a lecture.",ambiguous,assistant,32,41
+1995,The engineer called yesterday.,ambiguous,engineer,4,12
+1996,"Because the accountant was tired, the accountant joined the call.",ambiguous,accountant,12,22
+1997,The architect forgot his laptop.,unambiguous,architect,4,13
+1998,"The director joined the call, and he seemed tired.",unambiguous,director,4,12
+1999,The surgeon said she was focused.,unambiguous,surgeon,4,11
+2000,"During the event, the teacher entered the room.",ambiguous,teacher,22,29
