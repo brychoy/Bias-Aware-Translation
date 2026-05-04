@@ -56,8 +56,7 @@ Weights are produced by the training scripts and stored under **`models/ambiguit
 ```
 Bias-Aware-Translation/
 ├── data/
-│   ├── gender_dataset.csv    # Training/eval data (sentences, ambiguity, actor spans)
-│   └── eval_inputs.txt
+│   └── gender_dataset.csv    # Training/eval data (sentences, ambiguity, actor spans)
 ├── models/                    # Created by training; not in git (see .gitignore)
 │   ├── ambiguity_distilbert/
 │   └── actor_distilbert/
@@ -70,7 +69,7 @@ Bias-Aware-Translation/
 │   ├── phase2/
 │   │   └── translator.py     # Google Translate wrapper
 │   ├── phase3/
-│   │   └── evaluator.py
+│   │   └── evaluator.py      # Evaluation and batch logging tools
 │   └── pipeline/
 │       └── pipeline.py       # Pipeline logic: drives resolver and translator
 ├── requirements.txt
