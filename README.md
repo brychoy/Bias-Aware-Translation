@@ -6,14 +6,14 @@ Machine translation systems often introduce **gender bias** when translating fro
 
 This project introduces a **bias-aware translation pipeline** that:
 - Detects gender ambiguity in sentences
-- Identifies occupational terms
-- Generates both masculine and feminine variants
-- Translates both versions independently
-- Exposes hidden gender bias in machine translation systems
+- Identifies the occupational **actor** span in the text
+- For ambiguous inputs, injects `male` / `female` before the actor and translates both variants
+- For unambiguous inputs, produces a **single** translation
+- Exposes how machine translation can differ under explicit gender disambiguation
 
 ---
 
-## Key Idea
+## Key idea
 
 Instead of producing a single translation, our system generates an un-biased translation containing:
 
@@ -24,83 +24,101 @@ for gender-ambiguous occupational sentences. Note, for feasibility, we constrain
 
 ---
 
-## System Architecture
+## System architecture
+
 ```
-Input Sentence
-↓
-Phase 1: Ambiguity Detection + Occupation Localization
-↓
-Gender Injection (if ambiguous)
-↓
-Phase 2: Machine Translation (Google Translate backend)
-↓
-Phase 3: Evaluation + Logging
+Input sentence (English)
+    ↓
+Phase 1: Ambiguity classification + actor span tagging (DistilBERT, fine-tuned)
+    ↓
+If ambiguous: inject "male" / "female" before the actor → two source strings
+If unambiguous: one source string
+    ↓
+Phase 2: English → French (Google Translate via `deep-translator`)
+    ↓
+One or two French outputs (labeled in the CLI)
 ```
+
+Phase 3 (evaluation / batch logging) exists in the repo but is **not** used by the default command-line program.
 
 ---
 
-## Project Structure
+## Models
+
+Phase 1 uses **two small DistilBERT models** trained on `data/gender_dataset.csv`: one decides whether the occupational actor is **gender-ambiguous** in English, and one finds **where the actor is** in the sentence so the pipeline can insert `male` / `female` before translation.
+
+Weights are produced by the training scripts and stored under **`models/ambiguity_distilbert/`** and **`models/actor_distilbert/`**. Those folders are not tracked in git—you generate them locally by training (see below).
+
+---
+
+## Project structure
+
 ```
-bias-aware-translation/
-│
-├── src/                        # Core pipeline code
-│   ├── main.py                 # Entry point (demo + experiment runner)
-│   │
-│   ├── phase1/                 # Ambiguity detection + gender injection (PLACEHOLDER)
-│   │   ├── resolver.py
-│   │   ├── classifier.py       # (ML model 1 placeholder)
-│   │   ├── localizer.py        # (ML model 2 placeholder)
-│   │
-│   ├── phase2/                 # Translation module
-│   │   ├── translator.py       # Google Translate wrapper
-│   │
-│   ├── phase3/                 # Evaluation module (PLACEHOLDER)
-│   │   ├── evaluator.py
-│   │
-│   ├── pipeline/               # Orchestration layer
-│   │   ├── pipeline.py
-│
-├── data/                       # Input datasets for evaluation
-│   ├── eval_inputs.txt
-│
-├── outputs/                    # Experiment outputs & logs
-│   ├── results.json
-│
-├── figures/
-│   ├── demo_output.png
-│
-├── venv_nlp/    
+Bias-Aware-Translation/
+├── data/
+│   ├── gender_dataset.csv    # Training/eval data (sentences, ambiguity, actor spans)
+│   └── eval_inputs.txt
+├── models/                    # Created by training; not in git (see .gitignore)
+│   ├── ambiguity_distilbert/
+│   └── actor_distilbert/
+├── src/
+│   ├── main.py                # Interactive CLI (entry point)
+│   ├── phase1/
+│   │   ├── classifier.py    # Train ambiguity model
+│   │   ├── localizer.py     # Train actor-span model
+│   │   └── resolver.py      # Load models, resolve, inject
+│   ├── phase2/
+│   │   └── translator.py     # Google Translate wrapper
+│   ├── phase3/
+│   │   └── evaluator.py
+│   └── pipeline/
+│       └── pipeline.py       # Pipeline logic: drives resolver and translator
 ├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ---
 
-## 🚀 Getting Started
+## Setup
 
-### 1. Setup environment
-
-```
+```bash
 python3 -m venv venv_nlp
-source venv_nlp/bin/activate  # (Mac/Linux)
+source venv_nlp/bin/activate
 pip install -r requirements.txt
 ```
 
-### 2. Run DEMO mode or Batched Experiments
+Translation uses **Google’s service** through `deep-translator`; you need a **network connection** when running the app.
 
-```
-python src/main.py --mode demo
-```
-or
-```
-python src/main.py --mode experiment --input_file data/eval_inputs.txt
+---
+
+## Training the models
+
+From the **repository root** (the folder that contains `data/` and `src/`), with `data/gender_dataset.csv` in place:
+
+```bash
+# Ambiguity classifier → models/ambiguity_distilbert/
+PYTHONPATH=src python3 -m phase1.classifier
+
+# Actor localizer → models/actor_distilbert/
+PYTHONPATH=src python3 -m phase1.localizer
 ```
 
-## DEMO Example
-<p align="center">
-  <img src="figures/demo_output.png" width="600"/>
-</p>
+Each command fine-tunes on CPU (as configured), prints validation metrics, and saves the best checkpoint to the corresponding `models/...` directory. Training hyperparameters (epochs, batch size, learning rate, max sequence length) are set as constants at the top of `classifier.py` and `localizer.py`.
 
-**Figure 1.** Example output from bias-aware translation system.
+---
 
+## Running the program end to end
+
+1. **Train** both models (or ensure `models/ambiguity_distilbert/config.json` and `models/actor_distilbert/config.json` exist).
+2. From the **repository root**:
+
+```bash
+PYTHONPATH=src python3 src/main.py
+```
+
+3. Enter English sentences at the prompt. Type **`exit`** to quit.
+
+- If the sentence is classified as **unambiguous**, you get **one** French translation.
+- If **ambiguous**, the resolver produces **two** English variants (with `male` / `female` injected) and you get **two** French lines (masculine / feminine versions in the UI labels).
+
+If a model directory is missing, the program raises a clear `FileNotFoundError` pointing you back to the training commands above.
