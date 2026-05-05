@@ -535,3 +535,195 @@ def run_evaluation_part1() -> None:
 
 if __name__ == "__main__":
     run_evaluation_part1()
+
+# ============================================================
+# Bias-Aware Translation Evaluation Notebook (Final Version)
+# File: bias_aware_translation_evaluation_v2.txt
+# ============================================================
+
+# ------------------------------------------------------------
+# SECTION 1: OVERVIEW
+# ------------------------------------------------------------
+# This notebook implements:
+# - Evaluation Part 1: Accuracy, Bias Rate, M:F Ratio, ΔG
+# - Evaluation Part 2: Workflow Success Rate
+#
+# Key Improvements:
+# - Separates correctness from workflow success
+# - Adds missing aggregation for workflow evaluation
+# - Provides report-ready outputs
+# ------------------------------------------------------------
+
+
+# ------------------------------------------------------------
+# SECTION 2: PART 1 METRICS (ACCURACY + BIAS + ΔG)
+# ------------------------------------------------------------
+
+def compute_part1_metrics_v2(results):
+    total = 0
+    correct = 0
+
+    male_count = 0
+    female_count = 0
+
+    male_gold = 0
+    female_gold = 0
+
+    male_correct = 0
+    female_correct = 0
+
+    for res in results:
+        pred = getattr(res, "pipeline_predicted_gender", None)
+        gold = getattr(res, "gold_gender", None)
+
+        if pred is None or gold is None:
+            continue
+
+        total += 1
+
+        # Accuracy
+        if pred == gold or pred == "both":
+            correct += 1
+
+        # Bias counts
+        if pred == "male":
+            male_count += 1
+        elif pred == "female":
+            female_count += 1
+        elif pred == "both":
+            male_count += 1
+            female_count += 1
+
+        # ΔG tracking
+        if gold == "male":
+            male_gold += 1
+            if pred in ["male", "both"]:
+                male_correct += 1
+
+        elif gold == "female":
+            female_gold += 1
+            if pred in ["female", "both"]:
+                female_correct += 1
+
+    accuracy = correct / total if total > 0 else 0.0
+    bias_rate = male_count / (male_count + female_count) if (male_count + female_count) > 0 else 0.0
+    mf_ratio = male_count / female_count if female_count > 0 else float('inf')
+
+    male_acc = male_correct / male_gold if male_gold > 0 else 0.0
+    female_acc = female_correct / female_gold if female_gold > 0 else 0.0
+    delta_g = male_acc - female_acc
+
+    return {
+        "accuracy": accuracy,
+        "bias_rate": bias_rate,
+        "mf_ratio": mf_ratio,
+        "delta_g": delta_g,
+        "total_samples": total
+    }
+
+
+# ------------------------------------------------------------
+# SECTION 3: PART 2 METRICS (WORKFLOW SUCCESS)
+# ------------------------------------------------------------
+
+def compute_part2_workflow_success(results):
+    total_ambiguous = 0
+    successful = 0
+
+    for res in results:
+        outputs = getattr(res, "pipeline_outputs", None)
+        if not outputs:
+            continue
+
+        labels = {o["label"] for o in outputs if "label" in o}
+
+        is_ambiguous = (
+            "Masculine version" in labels or
+            "Feminine version" in labels
+        )
+
+        if is_ambiguous:
+            total_ambiguous += 1
+
+            if "Masculine version" in labels and "Feminine version" in labels:
+                successful += 1
+
+    success_rate = successful / total_ambiguous if total_ambiguous > 0 else 0.0
+
+    return {
+        "total_ambiguous": total_ambiguous,
+        "successful": successful,
+        "workflow_success_rate": success_rate
+    }
+
+
+# ------------------------------------------------------------
+# SECTION 4: PRINTING FUNCTIONS
+# ------------------------------------------------------------
+
+def print_part1_results(metrics):
+    print("=== Evaluation Part 1: Accuracy & Bias ===")
+    print(f"Total Samples: {metrics['total_samples']}")
+    print(f"Accuracy: {metrics['accuracy']:.2%}")
+    print(f"Bias Rate (Masculine %): {metrics['bias_rate']:.2%}")
+    print(f"M:F Ratio: {metrics['mf_ratio']:.2f}")
+    print(f"ΔG (Male - Female): {metrics['delta_g']:.2%}")
+    print()
+
+
+def print_part2_results(metrics):
+    print("=== Evaluation Part 2: Workflow Success ===")
+    print(f"Total Ambiguous Inputs: {metrics['total_ambiguous']}")
+    print(f"Successful (Both Outputs): {metrics['successful']}")
+    print(f"Workflow Success Rate: {metrics['workflow_success_rate']:.2%}")
+    print()
+
+
+def print_evaluation_table(part1, part2):
+    print("--------------------------------------------------")
+    print("   System Evaluation Results")
+    print("--------------------------------------------------")
+    print(f"Accuracy (%)        : {part1['accuracy']*100:.2f}")
+    print(f"Bias Rate (%)       : {part1['bias_rate']*100:.2f}")
+    print(f"M:F Ratio           : {part1['mf_ratio']:.2f}")
+    print(f"ΔG (Male - Female)  : {part1['delta_g']*100:.2f}")
+    print("--------------------------------------------------")
+    print(f"Workflow Success (%) : {part2['workflow_success_rate']*100:.2f}")
+    print(f"Ambiguous Inputs     : {part2['total_ambiguous']}")
+    print(f"Successful Cases     : {part2['successful']}")
+    print("--------------------------------------------------")
+
+
+# ------------------------------------------------------------
+# SECTION 5: MAIN EXECUTION
+# ------------------------------------------------------------
+
+def run_full_evaluation(results):
+    part1 = compute_part1_metrics_v2(results)
+    part2 = compute_part2_workflow_success(results)
+
+    print_part1_results(part1)
+    print_part2_results(part2)
+    print_evaluation_table(part1, part2)
+
+    return part1, part2
+
+
+# ------------------------------------------------------------
+# SECTION 6: USAGE
+# ------------------------------------------------------------
+# Assuming 'results' is your processed dataset:
+#
+# part1_results, part2_results = run_full_evaluation(results)
+#
+# ------------------------------------------------------------
+
+
+# ------------------------------------------------------------
+# SECTION 7: REPORT NOTES
+# ------------------------------------------------------------
+# - Part 1 evaluates correctness and bias
+# - Part 2 evaluates workflow effectiveness
+# - ΔG captures gender disparity
+# - Workflow Success Rate fixes missing evaluation gap
+# ------------------------------------------------------------
